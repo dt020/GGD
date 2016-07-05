@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="GGDsquare" id="bb77fbff" version="3.1.1">
+  <folder name="Business" id="c316aa0d" type="business">
+    <element xsi:type="archimate:BusinessActor" id="0ce209d6" name="GGD Amsterdam"/>
+    <element xsi:type="archimate:BusinessRole" id="5a14361e" name="Medewerker"/>
+    <element xsi:type="archimate:BusinessRole" id="ca7dcfe5" name="Cliënt"/>
+    <element xsi:type="archimate:BusinessRole" id="9e1a7bac" name="Professional"/>
+    <element xsi:type="archimate:BusinessService" id="72621594" name="Zorg op afstand"/>
+    <element xsi:type="archimate:BusinessService" id="c7e839ca" name="Beeldconsult"/>
+    <element xsi:type="archimate:BusinessService" id="cc958abf" name="Begeleiding">
+      <documentation>Bijvoorbeeld van tienermoeders (door afdeling Voorzorg), of door</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" id="e5c2a07d" name="Tienermoeder"/>
+    <element xsi:type="archimate:BusinessRole" id="fae030aa" name="TBC patiënt"/>
+    <element xsi:type="archimate:BusinessEvent" id="26020697" name="Toestel kwijt"/>
+    <element xsi:type="archimate:BusinessEvent" id="7de3fc1b" name="Ander toestel"/>
+    <element xsi:type="archimate:BusinessService" id="a2ed6bdf" name="Online coaching"/>
+    <element xsi:type="archimate:BusinessActor" id="5526b075" name="Coachademy"/>
+  </folder>
+  <folder name="Application" id="526fd4b3" type="application">
+    <element xsi:type="archimate:ApplicationComponent" id="bf20a377" name="Whatsapp"/>
+    <element xsi:type="archimate:ApplicationComponent" id="3ab8087a" name="GGDsquare"/>
+    <element xsi:type="archimate:ApplicationComponent" id="29be40b2" name="Skype"/>
+    <element xsi:type="archimate:ApplicationFunction" id="7ccf250a" name="Beeldbellen"/>
+    <element xsi:type="archimate:ApplicationFunction" id="2b1b1a30" name="Chatten"/>
+    <element xsi:type="archimate:ApplicationFunction" id="ff87ab0a" name="Groeps-chat"/>
+    <element xsi:type="archimate:ApplicationFunction" id="1b2337b8" name="Corporate Dashboard"/>
+    <element xsi:type="archimate:ApplicationComponent" id="a8143e51" name="SQUARE"/>
+  </folder>
+  <folder name="Technology" id="f32ea3ec" type="technology">
+    <element xsi:type="archimate:Device" id="da1ab1a1" name="Mobiele telefoon"/>
+  </folder>
+  <folder name="Motivation" id="c2d6e464" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="09651d34" type="implementation_migration"/>
+  <folder name="Connectors" id="2e75fc3b" type="connectors"/>
+  <folder name="Relations" id="ea31aec2" type="relations"/>
+  <folder name="Views" id="b5514f3e" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" id="62e71973" name="Default View"/>
+  </folder>
+</archimate:model>
