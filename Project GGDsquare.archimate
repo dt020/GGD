@@ -16,6 +16,12 @@
     <element xsi:type="archimate:BusinessEvent" id="7de3fc1b" name="Ander toestel"/>
     <element xsi:type="archimate:BusinessService" id="a2ed6bdf" name="Online coaching"/>
     <element xsi:type="archimate:BusinessActor" id="5526b075" name="Coachademy"/>
+    <element xsi:type="archimate:BusinessEvent" id="5d164ee7" name="Faillissement"/>
+    <element xsi:type="archimate:BusinessEvent" id="9dd70917" name="Nieuwe release">
+      <documentation>Wordt er bij een nieuwe release van de originele app SQUARE altijd ook een release van GGDsquare opgeleverd?&#xD;
+&#xD;
+Hoe blijft dat met elkaar in lijn?</documentation>
+    </element>
   </folder>
   <folder name="Application" id="526fd4b3" type="application">
     <element xsi:type="archimate:ApplicationComponent" id="bf20a377" name="Whatsapp"/>
