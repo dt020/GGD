@@ -43,7 +43,9 @@ Dit kan een voorbeeld zijn van wat beoogd wordt.&#xD;
 Slack is kennelijk in gebruik bij het Datalab, zie https://datalab-amsterdam.slack.com.&#xD;
 </documentation>
     </element>
-    <element xsi:type="archimate:ApplicationComponent" id="d5cca7da" name="Serviant"/>
+    <element xsi:type="archimate:ApplicationComponent" id="d5cca7da" name="Serviant">
+      <documentation>Chat-mogelijkheid die nu beschikbaar is op de website van de Ouder- en Kindteams. Wordt gehost bij de GGD.</documentation>
+    </element>
   </folder>
   <folder name="Technology" id="f32ea3ec" type="technology">
     <element xsi:type="archimate:Device" id="da1ab1a1" name="Mobiele telefoon"/>
