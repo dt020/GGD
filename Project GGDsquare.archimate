@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="GGDsquare" id="bb77fbff" version="3.1.1">
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Project GGDsquare" id="bb77fbff" version="3.1.1">
   <folder name="Business" id="c316aa0d" type="business">
     <element xsi:type="archimate:BusinessActor" id="0ce209d6" name="GGD Amsterdam"/>
     <element xsi:type="archimate:BusinessRole" id="5a14361e" name="Medewerker"/>
@@ -32,6 +32,18 @@ Hoe blijft dat met elkaar in lijn?</documentation>
     <element xsi:type="archimate:ApplicationFunction" id="ff87ab0a" name="Groeps-chat"/>
     <element xsi:type="archimate:ApplicationFunction" id="1b2337b8" name="Corporate Dashboard"/>
     <element xsi:type="archimate:ApplicationComponent" id="a8143e51" name="SQUARE"/>
+    <element xsi:type="archimate:ApplicationComponent" id="1285a507" name="Slack.com">
+      <documentation>Volgens https://slack.com/: &quot;A messaging app for teams who are changing the world&quot;&#xD;
+&quot;Team communication for the 21st century&quot;&#xD;
+&quot;Organize your team conversations in open channels. Make a channel for a project, a topic, a team, or anything—everyone has a transparent view of all that’s going on.&quot;&#xD;
+&quot;For sensitive information, create private channels and invite a few team members. No one else can see or join your private channels.&quot;&#xD;
+&quot;To reach a colleague directly, send them a Direct Message. It's completely private and secure.&quot;&#xD;
+&#xD;
+Dit kan een voorbeeld zijn van wat beoogd wordt.&#xD;
+Slack is kennelijk in gebruik bij het Datalab, zie https://datalab-amsterdam.slack.com.&#xD;
+</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" id="d5cca7da" name="Serviant"/>
   </folder>
   <folder name="Technology" id="f32ea3ec" type="technology">
     <element xsi:type="archimate:Device" id="da1ab1a1" name="Mobiele telefoon"/>
