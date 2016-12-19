@@ -1,21 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Project GGDsquare" id="bb77fbff" version="3.1.1">
   <folder name="Business" id="c316aa0d" type="business">
-    <element xsi:type="archimate:BusinessActor" id="0ce209d6" name="GGD Amsterdam"/>
-    <element xsi:type="archimate:BusinessRole" id="5a14361e" name="Medewerker"/>
-    <element xsi:type="archimate:BusinessRole" id="ca7dcfe5" name="Cliënt"/>
-    <element xsi:type="archimate:BusinessRole" id="9e1a7bac" name="Professional"/>
+    <folder name="Producten en diensten" id="7ad11760">
+      <element xsi:type="archimate:Product" id="7d432bd4" name="TBC Begeleiding"/>
+      <element xsi:type="archimate:BusinessService" id="155fd37f" name="Gesprekken"/>
+      <element xsi:type="archimate:BusinessService" id="c7e839ca" name="Beeldconsult"/>
+      <element xsi:type="archimate:BusinessService" id="007319c8" name="Medicatie controle"/>
+      <element xsi:type="archimate:BusinessService" id="7366fc7e" name="Gesprek op afstand"/>
+    </folder>
+    <folder name="Taken, verantwoordelijkheden, programma's" id="35cd30f6">
+      <element xsi:type="archimate:BusinessFunction" id="62ca77c1" name="VoorZorg">
+        <documentation>Volgens https://vng.nl/onderwerpenindex/jeugd/jeugdgezondheidszorg/nieuws/voorzorg-programma-voor-tienermoeders-ook-in-uw-gemeente-0: &quot;VoorZorg is een ondersteuningsprogramma gericht op jonge vrouwen tot 25 jaar, die zwanger zijn van hun eerste kind en weinig of geen opleiding hebben genoten. Zij krijgen preventieve verpleegkundige steun tijdens hun zwangerschap en de eerste twee levensjaren. Het is een vrijwillig preventief programma dat bestaat uit huisbezoeken door een VoorZorgverpleegkundige van de Jeugdgezondheidszorg.&#xD;
+&#xD;
+VoorZorg is een kosteneffectieve interventie, die op dit moment wordt uitgevoerd door negen JGZ organisaties in zo'n 49 gemeenten.&quot;</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessFunction" id="90d773ba" name="VoorZorg regio Amsterdam">
+        <documentation>Volgens http://www.ggd.amsterdam.nl/jeugd/voorzorg-eerste/: &quot;Ben je voor de eerste keer zwanger, maar heb je geen idee wat er op je af gaat komen? VoorZorg geeft je ondersteuning tijdens je zwangerschap en helpt je op weg bij de opvoeding van je kindje. VoorZorg begint zo vroeg mogelijk in de zwangerschap en loopt door totdat je kind twee jaar oud is. Een verpleegkundige van de GGD Jeugdgezondheidszorg ondersteunt je thuis tijdens en na je zwangerschap. VoorZorg is aanvullend op de zorg die de verloskundige, de kraamzorginstelling en het consultatiebureau standaard bieden.&quot;</documentation>
+      </element>
+    </folder>
+    <folder name="Actoren" id="2d66ec47">
+      <element xsi:type="archimate:BusinessActor" id="5526b075" name="Coachademy"/>
+      <element xsi:type="archimate:BusinessActor" id="0ce209d6" name="GGD Amsterdam"/>
+      <element xsi:type="archimate:BusinessActor" id="425817d4" name="VNG"/>
+    </folder>
+    <folder name="Rollen" id="e8f1a5b7">
+      <element xsi:type="archimate:BusinessRole" id="ca7dcfe5" name="Cliënt"/>
+      <element xsi:type="archimate:BusinessRole" id="5a14361e" name="Medewerker"/>
+      <element xsi:type="archimate:BusinessRole" id="9e1a7bac" name="Professional"/>
+      <element xsi:type="archimate:BusinessRole" id="fae030aa" name="TBC patiënt"/>
+      <element xsi:type="archimate:BusinessRole" id="e5c2a07d" name="Tienermoeder"/>
+      <element xsi:type="archimate:BusinessRole" id="6aab4a46" name="Verpleegkundige"/>
+      <element xsi:type="archimate:BusinessRole" id="d516114a" name="Verloskundige"/>
+    </folder>
     <element xsi:type="archimate:BusinessService" id="72621594" name="Zorg op afstand"/>
-    <element xsi:type="archimate:BusinessService" id="c7e839ca" name="Beeldconsult"/>
     <element xsi:type="archimate:BusinessService" id="cc958abf" name="Begeleiding">
       <documentation>Bijvoorbeeld van tienermoeders (door afdeling Voorzorg), of door</documentation>
     </element>
-    <element xsi:type="archimate:BusinessRole" id="e5c2a07d" name="Tienermoeder"/>
-    <element xsi:type="archimate:BusinessRole" id="fae030aa" name="TBC patiënt"/>
     <element xsi:type="archimate:BusinessEvent" id="26020697" name="Toestel kwijt"/>
     <element xsi:type="archimate:BusinessEvent" id="7de3fc1b" name="Ander toestel"/>
     <element xsi:type="archimate:BusinessService" id="a2ed6bdf" name="Online coaching"/>
-    <element xsi:type="archimate:BusinessActor" id="5526b075" name="Coachademy"/>
     <element xsi:type="archimate:BusinessEvent" id="5d164ee7" name="Faillissement"/>
     <element xsi:type="archimate:BusinessEvent" id="9dd70917" name="Nieuwe release">
       <documentation>Wordt er bij een nieuwe release van de originele app SQUARE altijd ook een release van GGDsquare opgeleverd?&#xD;
@@ -27,7 +50,9 @@ Hoe blijft dat met elkaar in lijn?</documentation>
     <element xsi:type="archimate:ApplicationComponent" id="bf20a377" name="Whatsapp"/>
     <element xsi:type="archimate:ApplicationComponent" id="3ab8087a" name="GGDsquare"/>
     <element xsi:type="archimate:ApplicationComponent" id="29be40b2" name="Skype"/>
-    <element xsi:type="archimate:ApplicationFunction" id="7ccf250a" name="Beeldbellen"/>
+    <element xsi:type="archimate:ApplicationFunction" id="7ccf250a" name="Beeldbellen">
+      <documentation>Volgens LvD: &quot;Daarnaast heeft de client/hulpverlener de mogelijkheid om een videoverbinding op te starten.&quot;</documentation>
+    </element>
     <element xsi:type="archimate:ApplicationFunction" id="2b1b1a30" name="Chatten"/>
     <element xsi:type="archimate:ApplicationFunction" id="ff87ab0a" name="Groeps-chat"/>
     <element xsi:type="archimate:ApplicationFunction" id="1b2337b8" name="Corporate Dashboard"/>
@@ -46,15 +71,83 @@ Slack is kennelijk in gebruik bij het Datalab, zie https://datalab-amsterdam.sla
     <element xsi:type="archimate:ApplicationComponent" id="d5cca7da" name="Serviant">
       <documentation>Chat-mogelijkheid die nu beschikbaar is op de website van de Ouder- en Kindteams. Wordt gehost bij de GGD.</documentation>
     </element>
+    <element xsi:type="archimate:ApplicationComponent" id="a99652e9" name="Tubis"/>
+    <element xsi:type="archimate:ApplicationComponent" id="308bf73e" name="iTBC"/>
+    <element xsi:type="archimate:ApplicationFunction" id="2329fe66" name="Bestanden delen">
+      <documentation>Volgens LvD: &quot;Als laatste communicatieoptie is het van belang om bestanden (zoals foto’s, documenten etc) door te sturen via GGDSquare&quot;</documentation>
+    </element>
   </folder>
   <folder name="Technology" id="f32ea3ec" type="technology">
     <element xsi:type="archimate:Device" id="da1ab1a1" name="Mobiele telefoon"/>
   </folder>
-  <folder name="Motivation" id="c2d6e464" type="motivation"/>
+  <folder name="Motivation" id="c2d6e464" type="motivation">
+    <element xsi:type="archimate:Driver" id="9639f3c6" name="Beeldschermzorg, zorg op afstand">
+      <documentation>Ambitie van Ministerie van Volksgezondheid, Welzijn en Sport&#xD;
+Volgens https://www.rijksoverheid.nl/documenten/kamerstukken/2014/07/02/kamerbrief-over-e-health-en-zorgverbetering: &quot;Binnen vijf jaar heeft iedereen die zorg en ondersteuning thuis ontvangt de mogelijkheid om – desgewenst - via een beeldscherm 24 uur per dag met een zorgverlener te communiceren.&quot;</documentation>
+    </element>
+  </folder>
   <folder name="Implementation &amp; Migration" id="09651d34" type="implementation_migration"/>
   <folder name="Connectors" id="2e75fc3b" type="connectors"/>
-  <folder name="Relations" id="ea31aec2" type="relations"/>
+  <folder name="Relations" id="ea31aec2" type="relations">
+    <element xsi:type="archimate:AssociationRelationship" id="3d7ed8e0" source="0ce209d6" target="7d432bd4"/>
+    <element xsi:type="archimate:AggregationRelationship" id="e04962d7" source="7d432bd4" target="155fd37f"/>
+    <element xsi:type="archimate:RealisationRelationship" id="ad9876be" source="6aab4a46" target="155fd37f"/>
+    <element xsi:type="archimate:UsedByRelationship" id="1958af82" source="155fd37f" target="fae030aa"/>
+    <element xsi:type="archimate:AssociationRelationship" id="12c38517" source="6aab4a46" target="0ce209d6"/>
+    <element xsi:type="archimate:RealisationRelationship" id="6c109802" source="6aab4a46" target="7366fc7e"/>
+    <element xsi:type="archimate:UsedByRelationship" id="5f46e363" source="7366fc7e" target="fae030aa"/>
+  </folder>
   <folder name="Views" id="b5514f3e" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" id="62e71973" name="Default View"/>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="50a44c0d" name="TBC Begeleiding huidige situatie">
+      <child xsi:type="archimate:DiagramObject" id="fdf5ee87" textAlignment="2" archimateElement="6aab4a46">
+        <bounds x="468" y="96" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="2ea22391" source="fdf5ee87" target="168d916c" relationship="ad9876be"/>
+        <sourceConnection xsi:type="archimate:Connection" id="712e98cf" source="fdf5ee87" target="0d5ea5b0" relationship="12c38517"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="0d5ea5b0" textAlignment="2" targetConnections="712e98cf" archimateElement="0ce209d6">
+        <bounds x="468" y="12" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="16801e64" source="0d5ea5b0" target="2f107a28" relationship="3d7ed8e0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="2f107a28" textAlignment="2" targetConnections="16801e64" archimateElement="7d432bd4">
+        <bounds x="288" y="12" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="915de9e2" source="2f107a28" target="168d916c" relationship="e04962d7"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="efd6ed04" textAlignment="2" targetConnections="19005ccd" archimateElement="fae030aa">
+        <bounds x="108" y="96" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="168d916c" textAlignment="2" targetConnections="915de9e2 2ea22391" archimateElement="155fd37f">
+        <bounds x="288" y="96" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="19005ccd" source="168d916c" target="efd6ed04" relationship="1958af82"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="4a3658e9" name="TBC Begeleiding doelsituatie">
+      <child xsi:type="archimate:DiagramObject" id="9410b081" textAlignment="2" archimateElement="6aab4a46">
+        <bounds x="468" y="132" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="3e11e2e1" source="9410b081" target="e7b88450" relationship="12c38517"/>
+        <sourceConnection xsi:type="archimate:Connection" id="5536d9e4" source="9410b081" target="e892ddc3" relationship="6c109802"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="e7b88450" textAlignment="2" targetConnections="3e11e2e1" archimateElement="0ce209d6">
+        <bounds x="468" y="12" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="a90b6d72" source="e7b88450" target="39ea65e5" relationship="3d7ed8e0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="39ea65e5" textAlignment="2" targetConnections="a90b6d72" archimateElement="7d432bd4">
+        <bounds x="288" y="12" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="6a0361f4" source="39ea65e5" target="1680f138" relationship="e04962d7"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="99aea819" textAlignment="2" targetConnections="2d222997" archimateElement="fae030aa">
+        <bounds x="108" y="132" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="1680f138" textAlignment="2" targetConnections="6a0361f4" archimateElement="155fd37f">
+        <bounds x="288" y="96" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="e892ddc3" textAlignment="2" targetConnections="5536d9e4" archimateElement="7366fc7e">
+        <bounds x="300" y="132" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="2d222997" source="e892ddc3" target="99aea819" relationship="5f46e363"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="f45108f0" textAlignment="2" archimateElement="007319c8">
+        <bounds x="312" y="168" width="120" height="55"/>
+      </child>
+    </element>
   </folder>
 </archimate:model>
