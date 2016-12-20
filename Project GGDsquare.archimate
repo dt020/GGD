@@ -3,13 +3,38 @@
   <folder name="Business" id="c316aa0d" type="business">
     <folder name="Producten en diensten" id="7ad11760">
       <element xsi:type="archimate:Product" id="7d432bd4" name="TBC Begeleiding"/>
-      <element xsi:type="archimate:BusinessService" id="155fd37f" name="Gesprekken"/>
+      <element xsi:type="archimate:BusinessService" id="155fd37f" name="Gesprekken op afspraak"/>
       <element xsi:type="archimate:BusinessService" id="c7e839ca" name="Beeldconsult"/>
       <element xsi:type="archimate:BusinessService" id="007319c8" name="Medicatie controle"/>
       <element xsi:type="archimate:BusinessService" id="7366fc7e" name="Gesprek op afstand"/>
+      <element xsi:type="archimate:BusinessService" id="96e53b8b" name="Huisbezoeken">
+        <documentation>Volgens https://vng.nl/onderwerpenindex/jeugd/jeugdgezondheidszorg/nieuws/voorzorg-programma-voor-tienermoeders-ook-in-uw-gemeente-0: &quot;Het is een vrijwillig preventief programma dat bestaat uit huisbezoeken door een VoorZorgverpleegkundige van de Jeugdgezondheidszorg&quot;&#xD;
+&#xD;
+Volgens http://www.ggd.amsterdam.nl/jeugd/voorzorg-eerste/: &quot;De verpleegkundige van de GGD komt thuis bij je langs. Tijdens die bezoeken werk je samen aan zes onderwerpen:&#xD;
+    de gezondheid van de moeder;&#xD;
+    de gezondheid en veiligheid van het kind;&#xD;
+    de persoonlijke ontwikkeling van de moeder;&#xD;
+    de rol van moeder als opvoeder van haar kind;&#xD;
+    de relatie van moeder met familie en vrienden;&#xD;
+    het gebruik van algemene voorzieningen, zoals bijvoorbeeld voorlichting voor aanstaande ouders.&quot;&#xD;
+&#xD;
+Volgens https://www.ncj.nl/dossier-s/voorzorg/watisvoorzorg: &quot;VoorZorg bestaat uit een intensief schema van huisbezoeken uitgevoerd door speciaal daar voor opgeleide jeugdverpleegkundigen met ervaring in de Jeugdgezondheidszorg. De huisbezoeken beginnen zo vroeg mogelijk in de zwangerschap (uiterlijk bij 28 weken zwangerschap) en gaan door tot het kind 2 jaar is. De frequentie ligt op gemiddeld twee bezoeken per maand, met verhoogde frequenties (wekelijks) in de eerste maand van het programma en tijdens de eerste zes weken na de geboorte. De huisbezoeken duren 1 à 1½ uur.&quot;</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessService" id="71781562" name="Verpleegkundige steun">
+        <documentation>Volgens https://vng.nl/onderwerpenindex/jeugd/jeugdgezondheidszorg/nieuws/voorzorg-programma-voor-tienermoeders-ook-in-uw-gemeente-0: &quot;Zij krijgen preventieve verpleegkundige steun tijdens hun zwangerschap en de eerste twee levensjaren.&quot;&#xD;
+&#xD;
+Volgens http://www.ggd.amsterdam.nl/jeugd/voorzorg-eerste/: &quot;Een verpleegkundige van de GGD Jeugdgezondheidszorg ondersteunt je thuis tijdens en na je zwangerschap. VoorZorg is aanvullend op de zorg die de verloskundige, de kraamzorginstelling en het consultatiebureau standaard bieden.&quot;</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessService" id="89d941dc" name="Aanvullend contact"/>
+      <element xsi:type="archimate:BusinessService" id="5c5bb180" name="Toeleiding naar passende zorg"/>
+      <element xsi:type="archimate:BusinessService" id="0bc4c476" name="Ogen en oren in de wijk"/>
+      <element xsi:type="archimate:BusinessService" id="46c31e9a" name="Behandeling">
+        <documentation>Volgens : &quot;De OKA-JGZ houdt contact met de ouders over het verloop van de behandeling/begeleiding bij de kinderarts.&quot;</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessService" id="edef79de" name="Begeleiding"/>
     </folder>
     <folder name="Taken, verantwoordelijkheden, programma's" id="35cd30f6">
-      <element xsi:type="archimate:BusinessFunction" id="62ca77c1" name="VoorZorg">
+      <element xsi:type="archimate:BusinessFunction" id="62ca77c1" name="Programma VoorZorg">
         <documentation>Volgens https://vng.nl/onderwerpenindex/jeugd/jeugdgezondheidszorg/nieuws/voorzorg-programma-voor-tienermoeders-ook-in-uw-gemeente-0: &quot;VoorZorg is een ondersteuningsprogramma gericht op jonge vrouwen tot 25 jaar, die zwanger zijn van hun eerste kind en weinig of geen opleiding hebben genoten. Zij krijgen preventieve verpleegkundige steun tijdens hun zwangerschap en de eerste twee levensjaren. Het is een vrijwillig preventief programma dat bestaat uit huisbezoeken door een VoorZorgverpleegkundige van de Jeugdgezondheidszorg.&#xD;
 &#xD;
 VoorZorg is een kosteneffectieve interventie, die op dit moment wordt uitgevoerd door negen JGZ organisaties in zo'n 49 gemeenten.&quot;</documentation>
@@ -17,11 +42,86 @@ VoorZorg is een kosteneffectieve interventie, die op dit moment wordt uitgevoerd
       <element xsi:type="archimate:BusinessFunction" id="90d773ba" name="VoorZorg regio Amsterdam">
         <documentation>Volgens http://www.ggd.amsterdam.nl/jeugd/voorzorg-eerste/: &quot;Ben je voor de eerste keer zwanger, maar heb je geen idee wat er op je af gaat komen? VoorZorg geeft je ondersteuning tijdens je zwangerschap en helpt je op weg bij de opvoeding van je kindje. VoorZorg begint zo vroeg mogelijk in de zwangerschap en loopt door totdat je kind twee jaar oud is. Een verpleegkundige van de GGD Jeugdgezondheidszorg ondersteunt je thuis tijdens en na je zwangerschap. VoorZorg is aanvullend op de zorg die de verloskundige, de kraamzorginstelling en het consultatiebureau standaard bieden.&quot;</documentation>
       </element>
+      <element xsi:type="archimate:BusinessFunction" id="6373a4d6" name="Publieke Gezondheidzorg"/>
+      <element xsi:type="archimate:BusinessFunction" id="1597f6a9" name="Bestrijding tuberculose"/>
+      <element xsi:type="archimate:BusinessFunction" id="d2b42963" name="Nurse Family Partnership"/>
+      <element xsi:type="archimate:BusinessFunction" id="e125699a" name="Programma Aanpak Gezond Gewicht">
+        <documentation>Volgens https://www.amsterdam.nl/bestuur-organisatie/organisatie/sociaal/onderwijs-jeugd-zorg/amsterdamse-aanpak/programma/: &quot;In Amsterdam hebben 1 op de 5 kinderen en jongeren overgewicht of obesitas. Dit heeft ernstige gevolgen voor hun gezondheid op korte en lange termijn. Daarom zet de gemeente flink in op het voorkomen en terugdringen van overgewicht bij kinderen, met als doel: alle Amsterdamse kinderen op gezond gewicht in 2033.&#xD;
+&#xD;
+Om gezond op te kunnen opgroeien hebben kinderen de inzet van iedereen nodig. Ten eerste die van het kind en de ouders zelf, maar ook die van professionals in het onderwijs, de zorg, welzijn- en buurtorganisaties, sportclubs en bedrijven. Met de Amsterdamse Aanpak Gezond Gewicht werkt de gemeente Amsterdam samen met andere partijen aan een gezond gewicht voor de Amsterdamse jeugd.&quot;</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessFunction" id="5e4f62f7" name="Scholenprogramma Jump-In">
+        <documentation>Volgens https://www.amsterdam.nl/bestuur-organisatie/organisatie/sociaal/onderwijs-jeugd-zorg/amsterdamse-aanpak/scholenprogramma/jump/: &quot;Jump-in is het programma dat scholen helpt om optimaal bij te dragen aan gezonde voeding en beweging van hun leerlingen en zo overgewicht te voorkomen.&quot;</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessFunction" id="8de39fc4" name="Verwijzen, overdracht, terugkoppeling, ..."/>
     </folder>
     <folder name="Actoren" id="2d66ec47">
       <element xsi:type="archimate:BusinessActor" id="5526b075" name="Coachademy"/>
       <element xsi:type="archimate:BusinessActor" id="0ce209d6" name="GGD Amsterdam"/>
       <element xsi:type="archimate:BusinessActor" id="425817d4" name="VNG"/>
+      <element xsi:type="archimate:BusinessActor" id="21e01174" name="Tienermoeders">
+        <documentation>Volgens https://www.ncj.nl/dossier-s/voorzorg/watisvoorzorg: &quot;VoorZorg is een programma voor jonge vrouwen tot 25 jaar die zwanger zijn van hun eerste kind en weinig of geen opleiding hebben genoten.&quot;</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessActor" id="6527e461" name="Jeugdgezondheidzorg"/>
+      <element xsi:type="archimate:BusinessActor" id="f1615c9f" name="WijkGGD'er">
+        <documentation>Volgens https://vng.nl/personen-met-verward-gedrag/in-de-praktijk-samenwerking-ggd-en-politie: &quot;In Amsterdam wordt de wijk-GGD'er ingezet. Deze werkt intensief samen met de wijkagent. Een bundeling van wijkkennis op het gebied van veiligheid en zorg, die kan zorgen voor een vroege signalering en snellere opvang voor verwarde mensen.&quot;</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessActor" id="80d207fa" name="Wijkagent">
+        <documentation>Volgens https://vng.nl/personen-met-verward-gedrag/in-de-praktijk-samenwerking-ggd-en-politie: &quot;In Amsterdam wordt de wijk-GGD'er ingezet. Deze werkt intensief samen met de wijkagent. Een bundeling van wijkkennis op het gebied van veiligheid en zorg, die kan zorgen voor een vroege signalering en snellere opvang voor verwarde mensen.&quot;</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessActor" id="fea6f15e" name="Politie">
+        <documentation>Volgens https://vng.nl/personen-met-verward-gedrag/in-de-praktijk-samenwerking-ggd-en-politie: &quot;Doel van de samenwerking tussen politie en GGD is dat meer mensen op tijd de benodigde zorg krijgen en er minder crisissituaties ontstaan.&quot;</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessActor" id="e53b503f" name="Verwarde personen"/>
+      <element xsi:type="archimate:BusinessActor" id="21cb6e38" name="Bewoners"/>
+      <element xsi:type="archimate:BusinessActor" id="f73c489f" name="Kinderen met overgewicht"/>
+      <element xsi:type="archimate:BusinessActor" id="d476b2d6" name="Ouders">
+        <documentation>Volgens https://www.amsterdam.nl/bestuur-organisatie/organisatie/sociaal/onderwijs-jeugd-zorg/amsterdamse-aanpak/ouder-en-kind/tien-tips-ouders/: &quot;Veel ouders en andere familieleden die hun kind willen helpen met een gezonde leefstijl, maken goedbedoelde opmerkingen over hoeveel hun kind eet en hoe het eruit ziet. Maar praten over gewicht werkt averechts: kinderen worden er juist zwaarder van. Vooral voor meisjes kan commentaar op hun uiterlijk negatief uitpakken. Hoe praten we op een opbouwende manier met onze kinderen over gezondheid?&#xD;
+&#xD;
+Uit onderzoek is gebleken dat praten met kinderen over dik zijn en overgewicht een averechts effect kan hebben. Kinderen kunnen er onzeker van worden en een negatief zelfbeeld ontwikkelen. Daardoor kunnen ze juist slechtere leefstijlkeuzes gaan maken, zoals meer eten en minder bewegen. Ze kunnen daardoor juist te zwaar worden of een eetstoornis ontwikkelen.&#xD;
+&#xD;
+Wacht af&#xD;
+Het is als ouders en ander familielid dus zaak heel voorzichtig te zijn als je met kinderen praat over dit onderwerp. Met jonge kinderen hoeft helemaal niet over gewicht gepraat te worden. Bij oudere kinderen die al wat te zwaar zijn, is het advies: wacht tot ze er zelf mee komen en vraag hoe je kan helpen.&#xD;
+&#xD;
+Geef het goeie voorbeeld&#xD;
+Het belangrijkste is: geef zelf het goede voorbeeld. Maak zelf gezonde keuzes, laat zien dat je plezier hebt in sporten en bewegen. Zorg dat het huis een plek is waar je kind makkelijk de gezonde keuze kan maken. Bijvoorbeeld door geen snoep in huis te halen en wel lekker fruit en rauwkost. Zorg dat je als gezin vaak samen naar buiten gaat om te spelen, te wandelen, te fietsen of te sporten.&#xD;
+&#xD;
+Let vooral op bij meisjes&#xD;
+Bijzonder is dat het niet uitmaakt of ouders vaak commentaar geven over het gewicht van het kind of maar af en toe. Vooral bij meisjes kan het negatief uitwerken. Voor hen is lichaamsbeeld en zelfbeeld vaak sterk aan elkaar gekoppeld, onder invloed van beelden en boodschappen in de media over het uiterlijk van vrouwen. Het is aan de ouders en de rest van de familie om een tegenwicht te bieden aan deze invloeden.&#xD;
+&#xD;
+Tien tips voor ouders&#xD;
+Wat niet: vijf tips&#xD;
+    Hou niet één groot moeilijk gesprek over leefstijl&#xD;
+    Gebruik geen woorden als dik, zwaar, vet, overgewicht et cetera&#xD;
+    Zeg niet: je moet echt gaan afvallen&#xD;
+    Praat niet met anderen over het gewicht van het kind waar het bij is&#xD;
+    Maak geen negatieve opmerkingen over mensen met overgewicht &#xD;
+&#xD;
+Wat dan wel: vijf tips&#xD;
+    Praat regelmatig over gezonde keuzes, bij verschillende gelegenheden&#xD;
+    Praat positief over je eigen lichaam, ook als je te zwaar bent&#xD;
+    Vertel dat je door gezond te eten en te bewegen, sterk en slim wordt&#xD;
+    Geef complimenten voor kleine succesjes&#xD;
+    Vertel het kind dat het mooi/knap is (en lief en leuk), zonder het gewicht te benoemen&quot;</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessActor" id="57625664" name="Ouder- en Kindteam"/>
+      <element xsi:type="archimate:BusinessActor" id="837c68d3" name="Ouder- en Kindadviseur">
+        <documentation>Volgens https://www.amsterdam.nl/publish/pages/750861/samenwerkingsovereenkomst_waterlandpleinbuurt.pdf: &quot;De jeugdpsycholoog, jeugdarts en de ouder- en kindadviseurs op school signaleren en bespreken overgewicht en obesitas en kunnen bij de begeleiding van kinderen worden betrokken.&quot;</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessActor" id="d71db907" name="Jeugdverpleegkundige">
+        <documentation>Volgens https://www.amsterdam.nl/publish/pages/750861/samenwerkingsovereenkomst_waterlandpleinbuurt.pdf: &quot;De jeugdverpleegkundige vervult de rol van de centrale zorgverlener. De jeugdverpleegkundige motiveert kinderen met overgewicht en obesitas en hun ouders, maakt met het gezin een leef- en actieplan waarin staat aan welke interventies worden gewerkt, geeft laagdrempelig advies op gebied van gezonde leefstijl, verwijst indien nodig door, bewaakt de voortgang en werkt samen met het informele netwerk, scholen, Samen Doen, andere zorgpartners en de specialistische jeugdhulp.&quot;&#xD;
+&#xD;
+Volgens https://www.amsterdam.nl/publish/pages/746413/stedelijk_verwijsschema.pdf: &quot;Bij de zorgverlening aan kinderen met ernstige gezins- en of kindproblematiek (waaronder morbide obesitas) zijn er vaak verschillende zorgverleners betrokken. Het is belangrijk dat er daarbij één algemene regisseur is. In de Zorgstandaard Obesitas spreekt men van de centrale zorgverlener. Deze heeft niet als enige contact met het gezin. De centrale zorgverlener monitort de ingezette plannen en stuurt bij waar nodig. Een kind met morbide obesitas moet langdurig in beeld blijven en begeleid worden gedurende de behandelfase, onderhoudsfase en begeleidingsfase. De Zorgstandaard spreekt van twee a drie jaar.&#xD;
+&#xD;
+De Ouder- en Kindadviseur Jeugdgezondheidszorg (OKA-JGZ) heeft kennis van het inschatten van de gezondheidsrisico’s en is specialist op het gebied van overgewicht en (morbide) obesitas. Vandaar dat gekozen is om de OKA-JGZ (als onderdeel van het OKT) in te zetten als centrale zorgverlener. De OKA-JGZ kan direct schakelen met overige collega’s waaronder jeugdarts, jeugdpsycholoog en Ouder- en Kindadviseurs met LVB expertise. De kinderarts blijft medisch verantwoordelijk voor het kind met morbide obesitas.&#xD;
+&#xD;
+De OKA-JGZ zal in veel gevallen ook een aanvullende regierol hebben. Immers bij morbide obesitas is vaak sprake van multiproblematiek en is bijvoorbeeld een generalist van Samen Doen of een gezinsmanager van Jeugdbescherming de regisseur binnen het gezin voor alle problematiek. De specialist van OKA-JGZ voegt haar kennis en expertise op het gebied van overgewicht en (morbide) obesitas toe als centrale zorgverlener overgewicht en (morbide) obesitas.&quot;</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessActor" id="78791395" name="Scholen">
+        <documentation>Volgens https://www.amsterdam.nl/bestuur-organisatie/organisatie/sociaal/onderwijs-jeugd-zorg/amsterdamse-aanpak/scholenprogramma/jump/: &quot;De gemeente Amsterdam investeert in een gezonde leefstijl voor alle Amsterdamse kinderen. Met het programma Amsterdamse Aanpak Gezond Gewicht zet de gemeente zich samen met partners nog sterker in om kinderen op gezond gewicht krijgen en te houden. Scholen zijn van grote waarde voor het bereiken van deze ambitie.&quot;</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessActor" id="6d937edb" name="Zorgprofessional"/>
+      <element xsi:type="archimate:BusinessActor" id="5394bc0a" name="Kinderarts"/>
     </folder>
     <folder name="Rollen" id="e8f1a5b7">
       <element xsi:type="archimate:BusinessRole" id="ca7dcfe5" name="Cliënt"/>
@@ -31,6 +131,7 @@ VoorZorg is een kosteneffectieve interventie, die op dit moment wordt uitgevoerd
       <element xsi:type="archimate:BusinessRole" id="e5c2a07d" name="Tienermoeder"/>
       <element xsi:type="archimate:BusinessRole" id="6aab4a46" name="Verpleegkundige"/>
       <element xsi:type="archimate:BusinessRole" id="d516114a" name="Verloskundige"/>
+      <element xsi:type="archimate:BusinessRole" id="ab1a3aee" name="Centrale zorgverlener"/>
     </folder>
     <element xsi:type="archimate:BusinessService" id="72621594" name="Zorg op afstand"/>
     <element xsi:type="archimate:BusinessService" id="cc958abf" name="Begeleiding">
@@ -44,6 +145,12 @@ VoorZorg is een kosteneffectieve interventie, die op dit moment wordt uitgevoerd
       <documentation>Wordt er bij een nieuwe release van de originele app SQUARE altijd ook een release van GGDsquare opgeleverd?&#xD;
 &#xD;
 Hoe blijft dat met elkaar in lijn?</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessInteraction" id="141905fe" name="Samenwerking in de wijk"/>
+    <element xsi:type="archimate:Value" id="ea20d050" name="Niet geschikt"/>
+    <element xsi:type="archimate:Value" id="2d784250" name="Wel geschikt"/>
+    <element xsi:type="archimate:Contract" id="cc1af381" name="Leef&amp;Actieplan">
+      <documentation>Volgens https://www.amsterdam.nl/publish/pages/531358/uitvoeringsplan_gezond_gewicht_2016.pdf: &quot;Het Leef&amp;Actieplan is een belangrijk instrument voor de centrale zorgverlener in de begeleiding van morbide obese kinderen.&quot;</documentation>
     </element>
   </folder>
   <folder name="Application" id="526fd4b3" type="application">
@@ -76,6 +183,9 @@ Slack is kennelijk in gebruik bij het Datalab, zie https://datalab-amsterdam.sla
     <element xsi:type="archimate:ApplicationFunction" id="2329fe66" name="Bestanden delen">
       <documentation>Volgens LvD: &quot;Als laatste communicatieoptie is het van belang om bestanden (zoals foto’s, documenten etc) door te sturen via GGDSquare&quot;</documentation>
     </element>
+    <element xsi:type="archimate:ApplicationComponent" id="db8ba7a0" name="Leef&amp;Actieplan app">
+      <documentation>Volgens https://www.amsterdam.nl/publish/pages/531358/uitvoeringsplan_gezond_gewicht_2016.pdf: &quot;Het Leef&amp;Actieplan is een belangrijk instrument voor de centrale zorgverlener in de begeleiding van morbide obese kinderen. In 2016 bouwen we dit instrument om tot een digitale tool, waarmee zowel de ouders en kinderen als de zorgverlener kunnen werken. Naast een (statisch) digitaal dossier, is het vooral een tool waarmee de eigen regie, betrokkenheid en inzet van het betrokken kind en diens ouders en sociale omgeving (‘buddy’s’) kan worden versterkt.&quot;</documentation>
+    </element>
   </folder>
   <folder name="Technology" id="f32ea3ec" type="technology">
     <element xsi:type="archimate:Device" id="da1ab1a1" name="Mobiele telefoon"/>
@@ -84,6 +194,9 @@ Slack is kennelijk in gebruik bij het Datalab, zie https://datalab-amsterdam.sla
     <element xsi:type="archimate:Driver" id="9639f3c6" name="Beeldschermzorg, zorg op afstand">
       <documentation>Ambitie van Ministerie van Volksgezondheid, Welzijn en Sport&#xD;
 Volgens https://www.rijksoverheid.nl/documenten/kamerstukken/2014/07/02/kamerbrief-over-e-health-en-zorgverbetering: &quot;Binnen vijf jaar heeft iedereen die zorg en ondersteuning thuis ontvangt de mogelijkheid om – desgewenst - via een beeldscherm 24 uur per dag met een zorgverlener te communiceren.&quot;</documentation>
+    </element>
+    <element xsi:type="archimate:Driver" id="fbd8b9d5" name="Preventie kindermishandeling en ernstige ontwikkelingsproblemen bij jonge kinderen">
+      <documentation>Zie https://vng.nl/onderwerpenindex/jeugd/jeugdgezondheidszorg/nieuws/voorzorg-programma-voor-tienermoeders-ook-in-uw-gemeente-0</documentation>
     </element>
   </folder>
   <folder name="Implementation &amp; Migration" id="09651d34" type="implementation_migration"/>
@@ -96,6 +209,50 @@ Volgens https://www.rijksoverheid.nl/documenten/kamerstukken/2014/07/02/kamerbri
     <element xsi:type="archimate:AssociationRelationship" id="12c38517" source="6aab4a46" target="0ce209d6"/>
     <element xsi:type="archimate:RealisationRelationship" id="6c109802" source="6aab4a46" target="7366fc7e"/>
     <element xsi:type="archimate:UsedByRelationship" id="5f46e363" source="7366fc7e" target="fae030aa"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="87fe35c2" source="0ce209d6" target="6373a4d6"/>
+    <element xsi:type="archimate:AggregationRelationship" id="6a9c3372" source="6373a4d6" target="1597f6a9"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="25238b15" source="425817d4" target="62ca77c1"/>
+    <element xsi:type="archimate:AssociationRelationship" id="e906cc10" source="6527e461" target="6aab4a46"/>
+    <element xsi:type="archimate:AggregationRelationship" id="c18cd7d1" source="0ce209d6" target="6527e461"/>
+    <element xsi:type="archimate:AggregationRelationship" id="92ae484e" source="62ca77c1" target="90d773ba"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="fee94711" source="6527e461" target="90d773ba"/>
+    <element xsi:type="archimate:RealisationRelationship" id="bf674f2f" source="6aab4a46" target="96e53b8b"/>
+    <element xsi:type="archimate:UsedByRelationship" id="1e1f831b" source="96e53b8b" target="21e01174"/>
+    <element xsi:type="archimate:AggregationRelationship" id="41468503" source="fea6f15e" target="80d207fa"/>
+    <element xsi:type="archimate:AggregationRelationship" id="3e4740fd" source="0ce209d6" target="f1615c9f"/>
+    <element xsi:type="archimate:RealisationRelationship" id="a9852e48" source="80d207fa" target="0bc4c476"/>
+    <element xsi:type="archimate:RealisationRelationship" id="074c3053" source="f1615c9f" target="5c5bb180"/>
+    <element xsi:type="archimate:UsedByRelationship" id="9d66481a" source="0bc4c476" target="21cb6e38"/>
+    <element xsi:type="archimate:UsedByRelationship" id="ec8bb055" source="5c5bb180" target="e53b503f"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="a01a5a62" source="80d207fa" target="141905fe"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="574992b5" source="f1615c9f" target="141905fe"/>
+    <element xsi:type="archimate:UsedByRelationship" id="7c2a4392" source="bf20a377" target="141905fe"/>
+    <element xsi:type="archimate:AssociationRelationship" id="14e656c9" source="bf20a377" target="ea20d050"/>
+    <element xsi:type="archimate:AssociationRelationship" id="5e3f5444" source="89d941dc" target="bf20a377"/>
+    <element xsi:type="archimate:AssociationRelationship" id="054e2fc1" source="2d784250" target="3ab8087a"/>
+    <element xsi:type="archimate:AssociationRelationship" id="5ad5bfed" source="89d941dc" target="3ab8087a"/>
+    <element xsi:type="archimate:UsedByRelationship" id="49fdd329" source="3ab8087a" target="141905fe"/>
+    <element xsi:type="archimate:AggregationRelationship" id="59518cd3" source="57625664" target="837c68d3"/>
+    <element xsi:type="archimate:AggregationRelationship" id="bb32bc37" source="57625664" target="d71db907"/>
+    <element xsi:type="archimate:AggregationRelationship" id="28146254" source="e125699a" target="5e4f62f7"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="c331228a" source="d71db907" target="ab1a3aee"/>
+    <element xsi:type="archimate:RealisationRelationship" id="421a94cd" source="5394bc0a" target="46c31e9a"/>
+    <element xsi:type="archimate:UsedByRelationship" id="a7a695f9" source="46c31e9a" target="f73c489f"/>
+    <element xsi:type="archimate:AssociationRelationship" id="20086e7b" source="f73c489f" target="d476b2d6"/>
+    <element xsi:type="archimate:RealisationRelationship" id="de6925b5" source="ab1a3aee" target="edef79de"/>
+    <element xsi:type="archimate:UsedByRelationship" id="24a576d9" source="edef79de" target="f73c489f"/>
+    <element xsi:type="archimate:UsedByRelationship" id="03bcc318" source="edef79de" target="d476b2d6"/>
+    <element xsi:type="archimate:AccessRelationship" id="d44ab8a2" source="edef79de" target="cc1af381" accessType="3"/>
+    <element xsi:type="archimate:AccessRelationship" id="f93132e5" source="46c31e9a" target="cc1af381" accessType="3"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="1b2498cd" source="d71db907" target="8de39fc4"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="dea15e3e" source="5394bc0a" target="8de39fc4"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="884bd71c" source="6d937edb" target="8de39fc4"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="a49cd5aa" source="78791395" target="8de39fc4"/>
+    <element xsi:type="archimate:UsedByRelationship" id="6d3c6847" source="db8ba7a0" target="edef79de"/>
+    <element xsi:type="archimate:UsedByRelationship" id="0006266c" source="db8ba7a0" target="46c31e9a"/>
+    <element xsi:type="archimate:AggregationRelationship" id="935c35ae" source="db8ba7a0" target="3ab8087a"/>
+    <element xsi:type="archimate:UsedByRelationship" id="59ed6914" source="3ab8087a" target="8de39fc4"/>
+    <element xsi:type="archimate:UsedByRelationship" id="83df6fad" source="3ab8087a" target="007319c8"/>
   </folder>
   <folder name="Views" id="b5514f3e" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" id="62e71973" name="Default View"/>
@@ -108,6 +265,7 @@ Volgens https://www.rijksoverheid.nl/documenten/kamerstukken/2014/07/02/kamerbri
       <child xsi:type="archimate:DiagramObject" id="0d5ea5b0" textAlignment="2" targetConnections="712e98cf" archimateElement="0ce209d6">
         <bounds x="468" y="12" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="16801e64" source="0d5ea5b0" target="2f107a28" relationship="3d7ed8e0"/>
+        <sourceConnection xsi:type="archimate:Connection" id="63fec9a8" source="0d5ea5b0" target="95541293" relationship="87fe35c2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="2f107a28" textAlignment="2" targetConnections="16801e64" archimateElement="7d432bd4">
         <bounds x="288" y="12" width="120" height="55"/>
@@ -120,6 +278,13 @@ Volgens https://www.rijksoverheid.nl/documenten/kamerstukken/2014/07/02/kamerbri
         <bounds x="288" y="96" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="19005ccd" source="168d916c" target="efd6ed04" relationship="1958af82"/>
       </child>
+      <child xsi:type="archimate:DiagramObject" id="95541293" textAlignment="2" targetConnections="63fec9a8" archimateElement="6373a4d6">
+        <bounds x="648" y="12" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="a9d96e14" source="95541293" target="40e1705e" relationship="6a9c3372"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="40e1705e" textAlignment="2" targetConnections="a9d96e14" archimateElement="1597f6a9">
+        <bounds x="648" y="96" width="120" height="55"/>
+      </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" id="4a3658e9" name="TBC Begeleiding doelsituatie">
       <child xsi:type="archimate:DiagramObject" id="9410b081" textAlignment="2" archimateElement="6aab4a46">
@@ -130,6 +295,7 @@ Volgens https://www.rijksoverheid.nl/documenten/kamerstukken/2014/07/02/kamerbri
       <child xsi:type="archimate:DiagramObject" id="e7b88450" textAlignment="2" targetConnections="3e11e2e1" archimateElement="0ce209d6">
         <bounds x="468" y="12" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="a90b6d72" source="e7b88450" target="39ea65e5" relationship="3d7ed8e0"/>
+        <sourceConnection xsi:type="archimate:Connection" id="becfe31a" source="e7b88450" target="636aa110" relationship="87fe35c2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="39ea65e5" textAlignment="2" targetConnections="a90b6d72" archimateElement="7d432bd4">
         <bounds x="288" y="12" width="120" height="55"/>
@@ -145,8 +311,312 @@ Volgens https://www.rijksoverheid.nl/documenten/kamerstukken/2014/07/02/kamerbri
         <bounds x="300" y="132" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="2d222997" source="e892ddc3" target="99aea819" relationship="5f46e363"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="f45108f0" textAlignment="2" archimateElement="007319c8">
+      <child xsi:type="archimate:DiagramObject" id="f45108f0" textAlignment="2" targetConnections="831fd11e" archimateElement="007319c8">
         <bounds x="312" y="168" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="636aa110" textAlignment="2" targetConnections="becfe31a" archimateElement="6373a4d6">
+        <bounds x="648" y="12" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="74fa9150" source="636aa110" target="f6366237" relationship="6a9c3372"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="f6366237" textAlignment="2" targetConnections="74fa9150" archimateElement="1597f6a9">
+        <bounds x="648" y="132" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="8b30ab6a" textAlignment="2" archimateElement="3ab8087a">
+        <bounds x="288" y="240" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="831fd11e" source="8b30ab6a" target="f45108f0" relationship="83df6fad"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="0f33731e" name="VoorZorg huidige situatie">
+      <child xsi:type="archimate:DiagramObject" id="4bfc9a85" textAlignment="2" targetConnections="7e6ca65b" archimateElement="62ca77c1">
+        <bounds x="642" y="15" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="a3a02d39" source="4bfc9a85" target="e7cd859e" relationship="92ae484e"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="1e38884e" textAlignment="2" archimateElement="425817d4">
+        <bounds x="804" y="15" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="7e6ca65b" source="1e38884e" target="4bfc9a85" relationship="25238b15"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="9d68db1b" textAlignment="2" targetConnections="b05f24a3" archimateElement="21e01174">
+        <bounds x="156" y="204" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="1cc917a5" textAlignment="2" archimateElement="0ce209d6">
+        <bounds x="468" y="15" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="5661c40f" source="1cc917a5" target="d31eadfe" relationship="c18cd7d1"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="e7cd859e" textAlignment="2" targetConnections="a3a02d39 c08f34c1" archimateElement="90d773ba">
+        <bounds x="642" y="108" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="d31eadfe" textAlignment="2" targetConnections="5661c40f" archimateElement="6527e461">
+        <bounds x="468" y="108" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="283f53c4" source="d31eadfe" target="2fdb7a73" relationship="e906cc10"/>
+        <sourceConnection xsi:type="archimate:Connection" id="c08f34c1" source="d31eadfe" target="e7cd859e" relationship="fee94711"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="2fdb7a73" textAlignment="2" targetConnections="283f53c4" archimateElement="6aab4a46">
+        <bounds x="468" y="204" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="33c2b128" source="2fdb7a73" target="b919adca" relationship="bf674f2f"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="b8b3c34f" textAlignment="2" archimateElement="71781562">
+        <bounds x="300" y="168" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="b919adca" textAlignment="2" targetConnections="33c2b128" archimateElement="96e53b8b">
+        <bounds x="312" y="204" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="b05f24a3" source="b919adca" target="9d68db1b" relationship="1e1f831b"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="3efa566d" textAlignment="2" archimateElement="89d941dc">
+        <bounds x="324" y="240" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="0709bdcd" source="3efa566d" target="9c75eeb1" relationship="5e3f5444"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="9c75eeb1" textAlignment="2" targetConnections="0709bdcd" archimateElement="bf20a377">
+        <bounds x="324" y="312" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="00194cc5" source="9c75eeb1" target="ffd89108" relationship="14e656c9"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="ffd89108" textAlignment="2" targetConnections="00194cc5" fillColor="#ff0000" archimateElement="ea20d050">
+        <bounds x="156" y="312" width="120" height="55"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="fee63fc2" name="VoorZorg doelsituatie">
+      <child xsi:type="archimate:DiagramObject" id="f37a0c44" textAlignment="2" targetConnections="1437aaf5" archimateElement="62ca77c1">
+        <bounds x="642" y="15" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="14416e67" source="f37a0c44" target="9ee52cdd" relationship="92ae484e"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="0b0bcae9" textAlignment="2" archimateElement="425817d4">
+        <bounds x="804" y="15" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="1437aaf5" source="0b0bcae9" target="f37a0c44" relationship="25238b15"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="6205ed7c" textAlignment="2" targetConnections="6062ab70" archimateElement="21e01174">
+        <bounds x="156" y="204" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="91310cf0" textAlignment="2" archimateElement="0ce209d6">
+        <bounds x="468" y="15" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="37d53974" source="91310cf0" target="f4295a7b" relationship="c18cd7d1"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="9ee52cdd" textAlignment="2" targetConnections="14416e67 3c3169f3" archimateElement="90d773ba">
+        <bounds x="642" y="108" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="f4295a7b" textAlignment="2" targetConnections="37d53974" archimateElement="6527e461">
+        <bounds x="468" y="108" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="2824518f" source="f4295a7b" target="2123d678" relationship="e906cc10"/>
+        <sourceConnection xsi:type="archimate:Connection" id="3c3169f3" source="f4295a7b" target="9ee52cdd" relationship="fee94711"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="2123d678" textAlignment="2" targetConnections="2824518f" archimateElement="6aab4a46">
+        <bounds x="468" y="204" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="2cf24455" source="2123d678" target="67cd18e9" relationship="bf674f2f"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="eb785759" textAlignment="2" archimateElement="71781562">
+        <bounds x="300" y="168" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="67cd18e9" textAlignment="2" targetConnections="2cf24455" archimateElement="96e53b8b">
+        <bounds x="312" y="204" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="6062ab70" source="67cd18e9" target="6205ed7c" relationship="1e1f831b"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="a3a86de1" textAlignment="2" archimateElement="89d941dc">
+        <bounds x="324" y="240" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="07e62c2c" source="a3a86de1" target="38fac1ef" relationship="5ad5bfed"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="38fac1ef" textAlignment="2" targetConnections="987b41f5 07e62c2c" archimateElement="3ab8087a">
+        <bounds x="324" y="312" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="519440c2" textAlignment="2" archimateElement="2d784250">
+        <bounds x="156" y="312" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="987b41f5" source="519440c2" target="38fac1ef" relationship="054e2fc1"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="f1114fb5" name="WijkGGD huidige situatie">
+      <child xsi:type="archimate:DiagramObject" id="467a8990" textAlignment="2" targetConnections="341b8215" archimateElement="f1615c9f">
+        <bounds x="528" y="108" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="f1ba830f" source="467a8990" target="c48f2e92" relationship="074c3053"/>
+        <sourceConnection xsi:type="archimate:Connection" id="23d447ea" source="467a8990" target="50a35430" relationship="574992b5"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="3a1f3bf0" textAlignment="2" archimateElement="0ce209d6">
+        <bounds x="528" y="24" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="341b8215" source="3a1f3bf0" target="467a8990" relationship="3e4740fd"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="da699d9b" textAlignment="2" archimateElement="fea6f15e">
+        <bounds x="192" y="24" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="0fec685e" source="da699d9b" target="62ff1792" relationship="41468503"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="62ff1792" textAlignment="2" targetConnections="0fec685e" archimateElement="80d207fa">
+        <bounds x="192" y="108" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="61d2e6cb" source="62ff1792" target="ca73ef4e" relationship="a9852e48"/>
+        <sourceConnection xsi:type="archimate:Connection" id="4a6d34de" source="62ff1792" target="50a35430" relationship="a01a5a62"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="50a35430" textAlignment="2" targetConnections="4a6d34de 23d447ea bd3e66ac" archimateElement="141905fe">
+        <bounds x="360" y="108" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="c2875b29" textAlignment="2" targetConnections="73b769aa" archimateElement="e53b503f">
+        <bounds x="528" y="276" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="306f6021" textAlignment="2" targetConnections="966c42de" archimateElement="21cb6e38">
+        <bounds x="192" y="276" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="c48f2e92" textAlignment="2" targetConnections="f1ba830f" archimateElement="5c5bb180">
+        <bounds x="528" y="192" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="73b769aa" source="c48f2e92" target="c2875b29" relationship="ec8bb055"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="ca73ef4e" textAlignment="2" targetConnections="61d2e6cb" archimateElement="0bc4c476">
+        <bounds x="192" y="192" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="966c42de" source="ca73ef4e" target="306f6021" relationship="9d66481a"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="21e7fbf9" textAlignment="2" archimateElement="bf20a377">
+        <bounds x="360" y="192" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="bd3e66ac" source="21e7fbf9" target="50a35430" relationship="7c2a4392"/>
+        <sourceConnection xsi:type="archimate:Connection" id="07555bd8" source="21e7fbf9" target="47afc2c1" relationship="14e656c9"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="47afc2c1" textAlignment="2" targetConnections="07555bd8" fillColor="#ff0000" archimateElement="ea20d050">
+        <bounds x="360" y="276" width="120" height="55"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="59102856" name="WijkGGD doelsituatie">
+      <child xsi:type="archimate:DiagramObject" id="3ff4e34b" textAlignment="2" targetConnections="b632518b" archimateElement="f1615c9f">
+        <bounds x="528" y="108" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="4f218e36" source="3ff4e34b" target="2a7dbd92" relationship="074c3053"/>
+        <sourceConnection xsi:type="archimate:Connection" id="91cdc85a" source="3ff4e34b" target="cf5b254f" relationship="574992b5"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="507849c1" textAlignment="2" archimateElement="0ce209d6">
+        <bounds x="528" y="24" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="b632518b" source="507849c1" target="3ff4e34b" relationship="3e4740fd"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="ae89613b" textAlignment="2" archimateElement="fea6f15e">
+        <bounds x="192" y="24" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="745b0668" source="ae89613b" target="4dd5e1e4" relationship="41468503"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="4dd5e1e4" textAlignment="2" targetConnections="745b0668" archimateElement="80d207fa">
+        <bounds x="192" y="108" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="6b80b34b" source="4dd5e1e4" target="bd2d1410" relationship="a9852e48"/>
+        <sourceConnection xsi:type="archimate:Connection" id="6dd7c69b" source="4dd5e1e4" target="cf5b254f" relationship="a01a5a62"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="cf5b254f" textAlignment="2" targetConnections="91cdc85a 6dd7c69b b7ee1410" archimateElement="141905fe">
+        <bounds x="360" y="108" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="90be030c" textAlignment="2" targetConnections="1963de03" archimateElement="e53b503f">
+        <bounds x="528" y="276" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="f9645d95" textAlignment="2" targetConnections="ae4df14b" archimateElement="21cb6e38">
+        <bounds x="192" y="276" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="2a7dbd92" textAlignment="2" targetConnections="4f218e36" archimateElement="5c5bb180">
+        <bounds x="528" y="192" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="1963de03" source="2a7dbd92" target="90be030c" relationship="ec8bb055"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="bd2d1410" textAlignment="2" targetConnections="6b80b34b" archimateElement="0bc4c476">
+        <bounds x="192" y="192" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="ae4df14b" source="bd2d1410" target="f9645d95" relationship="9d66481a"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="61d66f81" textAlignment="2" targetConnections="f4a50c61" archimateElement="3ab8087a">
+        <bounds x="360" y="192" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="b7ee1410" source="61d66f81" target="cf5b254f" relationship="49fdd329"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="bde2da44" textAlignment="2" archimateElement="2d784250">
+        <bounds x="360" y="276" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="f4a50c61" source="bde2da44" target="61d66f81" relationship="054e2fc1"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="6336a57d" name="Begeleiding bij overgewicht huidige situatie">
+      <child xsi:type="archimate:DiagramObject" id="b1134635" textAlignment="2" targetConnections="32b7ee1f 553b7a08" archimateElement="f73c489f">
+        <bounds x="156" y="192" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="37cd1462" source="b1134635" target="52688669" relationship="20086e7b"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="52688669" textAlignment="2" targetConnections="37cd1462 25df686a" archimateElement="d476b2d6">
+        <bounds x="156" y="107" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="55737ef3" textAlignment="2" archimateElement="57625664">
+        <bounds x="729" y="107" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="dad7a696" source="55737ef3" target="be4979b0" relationship="bb32bc37"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="be4979b0" textAlignment="2" targetConnections="dad7a696" archimateElement="d71db907">
+        <bounds x="588" y="108" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="da319181" source="be4979b0" target="cb923efb" relationship="c331228a"/>
+        <sourceConnection xsi:type="archimate:Connection" id="8c3ce7f7" source="be4979b0" target="d705a471" relationship="1b2498cd"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="77631734" textAlignment="2" archimateElement="78791395">
+        <bounds x="729" y="270" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="af686036" source="77631734" target="d705a471" relationship="a49cd5aa"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="cb923efb" textAlignment="2" targetConnections="da319181" archimateElement="ab1a3aee">
+        <bounds x="444" y="107" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="965362eb" source="cb923efb" target="485388a4" relationship="de6925b5"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="d810b37a" textAlignment="2" archimateElement="6d937edb">
+        <bounds x="588" y="270" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="010aa314" source="d810b37a" target="d705a471" relationship="884bd71c"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="d705a471" textAlignment="2" targetConnections="8c3ce7f7 17b11b6c 010aa314 af686036" archimateElement="8de39fc4">
+        <bounds x="588" y="192" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="837f4304" textAlignment="2" targetConnections="0423fb43" archimateElement="46c31e9a">
+        <bounds x="300" y="270" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="32b7ee1f" source="837f4304" target="b1134635" relationship="a7a695f9"/>
+        <sourceConnection xsi:type="archimate:Connection" id="67c35da3" source="837f4304" target="5e0180ac" relationship="f93132e5"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="920a188f" textAlignment="2" archimateElement="5394bc0a">
+        <bounds x="444" y="270" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="0423fb43" source="920a188f" target="837f4304" relationship="421a94cd"/>
+        <sourceConnection xsi:type="archimate:Connection" id="17b11b6c" source="920a188f" target="d705a471" relationship="dea15e3e"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="5e0180ac" textAlignment="2" targetConnections="0d969dad 67c35da3" archimateElement="cc1af381">
+        <bounds x="300" y="192" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="485388a4" textAlignment="2" targetConnections="965362eb" archimateElement="edef79de">
+        <bounds x="300" y="108" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="553b7a08" source="485388a4" target="b1134635" relationship="24a576d9"/>
+        <sourceConnection xsi:type="archimate:Connection" id="25df686a" source="485388a4" target="52688669" relationship="03bcc318"/>
+        <sourceConnection xsi:type="archimate:Connection" id="0d969dad" source="485388a4" target="5e0180ac" relationship="d44ab8a2"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="f6f42846" name="Begeleiding bij overgewicht doelsituatie">
+      <child xsi:type="archimate:DiagramObject" id="195b87c8" textAlignment="2" targetConnections="d441967f 53ff7149" archimateElement="f73c489f">
+        <bounds x="156" y="192" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="e4fcbdc4" source="195b87c8" target="7ff06456" relationship="20086e7b"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="7ff06456" textAlignment="2" targetConnections="18b9b0a9 e4fcbdc4" archimateElement="d476b2d6">
+        <bounds x="156" y="107" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="91982307" textAlignment="2" archimateElement="57625664">
+        <bounds x="729" y="107" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="4e36c602" source="91982307" target="a00d10dc" relationship="bb32bc37"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="a00d10dc" textAlignment="2" targetConnections="4e36c602" archimateElement="d71db907">
+        <bounds x="588" y="108" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="a32222f6" source="a00d10dc" target="0442f61f" relationship="c331228a"/>
+        <sourceConnection xsi:type="archimate:Connection" id="ce23a459" source="a00d10dc" target="66207197" relationship="1b2498cd"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="6f68ab82" textAlignment="2" archimateElement="78791395">
+        <bounds x="729" y="270" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="6060fa58" source="6f68ab82" target="66207197" relationship="a49cd5aa"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="0442f61f" textAlignment="2" targetConnections="a32222f6" archimateElement="ab1a3aee">
+        <bounds x="444" y="107" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="fa0f18f7" source="0442f61f" target="32a7d9d9" relationship="de6925b5"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="a03e01b7" textAlignment="2" archimateElement="6d937edb">
+        <bounds x="588" y="270" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="bbd03591" source="a03e01b7" target="66207197" relationship="884bd71c"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="66207197" textAlignment="2" targetConnections="ce23a459 3083a338 6060fa58 bbd03591 c06bdf11" archimateElement="8de39fc4">
+        <bounds x="588" y="192" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="eacf095f" textAlignment="2" targetConnections="7d43258d df645379" archimateElement="46c31e9a">
+        <bounds x="300" y="270" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="53ff7149" source="eacf095f" target="195b87c8" relationship="a7a695f9"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="a6495a03" textAlignment="2" archimateElement="5394bc0a">
+        <bounds x="444" y="270" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="7d43258d" source="a6495a03" target="eacf095f" relationship="421a94cd"/>
+        <sourceConnection xsi:type="archimate:Connection" id="3083a338" source="a6495a03" target="66207197" relationship="dea15e3e"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="76d1e232" textAlignment="2" archimateElement="db8ba7a0">
+        <bounds x="300" y="192" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="6efd1ce2" source="76d1e232" target="32a7d9d9" relationship="6d3c6847"/>
+        <sourceConnection xsi:type="archimate:Connection" id="df645379" source="76d1e232" target="eacf095f" relationship="0006266c"/>
+        <sourceConnection xsi:type="archimate:Connection" id="c97caaad" source="76d1e232" target="56f679a8" relationship="935c35ae"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="32a7d9d9" textAlignment="2" targetConnections="fa0f18f7 6efd1ce2" archimateElement="edef79de">
+        <bounds x="300" y="108" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="d441967f" source="32a7d9d9" target="195b87c8" relationship="24a576d9"/>
+        <sourceConnection xsi:type="archimate:Connection" id="18b9b0a9" source="32a7d9d9" target="7ff06456" relationship="03bcc318"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="56f679a8" textAlignment="2" targetConnections="c97caaad" archimateElement="3ab8087a">
+        <bounds x="444" y="192" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="c06bdf11" source="56f679a8" target="66207197" relationship="59ed6914"/>
       </child>
     </element>
   </folder>
