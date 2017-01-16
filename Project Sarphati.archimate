@@ -37,6 +37,37 @@
     <element xsi:type="archimate:BusinessProcess" id="98b8d08e" name="Import results"/>
     <element xsi:type="archimate:BusinessRole" id="b292e34b" name="Externe Researcher"/>
     <element xsi:type="archimate:BusinessActor" id="8d0324ba" name="Kennisinstellingen"/>
+    <element xsi:type="archimate:BusinessActor" id="d9780954" name="Vrije Universiteit Medisch Centrum"/>
+    <element xsi:type="archimate:BusinessRole" id="79a87339" name="Onderzoeksinstituut"/>
+    <element xsi:type="archimate:BusinessActor" id="87597609" name="Cohort Sarphati">
+      <documentation>Volgens https://www.sarphati.amsterdam/#sarphati-cohort: &quot;De kern van Sarphati Amsterdam wordt gevormd door een grote cohortstudie, het Sarphati Cohort. Binnen een cohortstudie worden individuen gedurende een bepaalde periode gevolgd en na verloop van tijd onderling vergeleken op eigenschappen, gedragingen en ontwikkelde aandoeningen. Dit soort onderzoek biedt de mogelijkheid om inzicht te krijgen in oorzaken van bepaalde aandoeningen. Binnen het Sarphati Cohort zijn de individuen die worden gevolgd, kinderen van 0 tot 18 jaar die in Amsterdam in zorg zijn bij Jeugdgezondheidszorg (JGZ). Het gaat hier om Jeugdgezondheidszorg binnen de Ouder- en Kind Teams (OKT), geleverd door de GGD Amsterdam en Stichting Amsterdamse Gezondheidscentra (SAG).&quot;</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" id="d242e376" name="Epidemiologie, Gezondheidsbevordering en Zorginnovatie (EGZ)"/>
+    <element xsi:type="archimate:BusinessActor" id="88ff66ab" name="Business Actor"/>
+    <element xsi:type="archimate:BusinessActor" id="9b3696b3" name="Sarphati Amsterdam">
+      <documentation>Volgens https://www.sarphati.amsterdam/#sarphati-amsterdam: &quot;â€˜Sarphati Amsterdam, research for healthy livingâ€™ is een uniek wetenschappelijk onderzoeksinstituut in Amsterdam dat zich vooral richt op het onderzoeken van leefstijlgerelateerde aandoeningen als (ernstig) overgewicht, diabetes en hart- en vaatziekten. Doel is het bevorderen van een gezonde leefstijl, optimale leefomstandigheden en het voorkÃ³men van overgewicht en obesitas bij de Amsterdamse jeugd. Hiermee wordt de basis gelegd voor de preventie Ã©n bestrijding van deze aandoeningen op lange termijn.&#xD;
+&#xD;
+Sarphati Amsterdam werkt samen met de gemeente Amsterdam (GGD) en de Amsterdamse kennisinstellingen (UvA, AMC, VU, VUMC, HvA) om leefstijlgerelateerde aandoeningen aan te pakken. In multidisciplinaire teams werken wij aan oplossingen op het terrein van preventie en zorg door praktijk, onderzoek, beleid met elkaar te verbinden. Sommige onderzoeksprojecten worden (deels) gefinancierd door private partijen.&quot;&#xD;
+&#xD;
+Volgens https://www.amsterdameconomicboard.com/projecten/sarphati-institute: &quot;â€˜Sarphati Amsterdam, research for healthy livingâ€™ is een uniek wetenschappelijk onderzoeksinstituut in Amsterdam. Het instituut richt zich vooral op het onderzoeken van leefstijlgerelateerde aandoeningen zoals (ernstig) overgewicht, diabetes en hart- en vaatziekten. Voor het eerste onderzoek worden alle Amsterdamse kinderen onderzocht op determinanten van overgewicht.&#xD;
+&#xD;
+Hoofddoel van Sarphati Amsterdam is het bevorderen van een gezonde leefstijl en optimale leefomstandigheden om overgewicht en obesitas bij de Amsterdamse jeugd te voorkomen. Hiermee wordt een basis gelegd voor de preventie Ã©n bestrijding van leefstijlgerelateerde aandoeningen op lange termijn.&quot;</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" id="d6507e13" name="Bedrijfsleven"/>
+    <element xsi:type="archimate:BusinessCollaboration" id="bbc2db74" name="Triple Helix Research Centre for New Epidemics"/>
+    <element xsi:type="archimate:BusinessActor" id="3121e27e" name="Hogeschool van Amsterdam"/>
+    <element xsi:type="archimate:BusinessActor" id="f4010778" name="Jeugdgezondheidszorg"/>
+    <element xsi:type="archimate:BusinessActor" id="1ecdae43" name="Gemeente Amsterdam"/>
+    <element xsi:type="archimate:BusinessActor" id="a7ef789a" name="Samuel Sarphati (1813-1866)"/>
+    <element xsi:type="archimate:Product" id="a7e34cb2" name="Onderzoeksinfrastructuur"/>
+    <element xsi:type="archimate:BusinessActor" id="20e005f8" name="Academisch Medisch Centrum "/>
+    <element xsi:type="archimate:BusinessRole" id="2f451895" name="Inspirator"/>
+    <element xsi:type="archimate:BusinessRole" id="bb23c31c" name="Overheid"/>
+    <element xsi:type="archimate:BusinessRole" id="cd076b4e" name="Kennisinstituut"/>
+    <element xsi:type="archimate:BusinessActor" id="e42471f0" name="Vrije Universiteit"/>
+    <element xsi:type="archimate:BusinessActor" id="ac6731a0" name="GGD Amsterdam"/>
+    <element xsi:type="archimate:BusinessRole" id="fcf554d0" name="Armendokter"/>
+    <element xsi:type="archimate:BusinessActor" id="c7651aec" name="Universiteit van Amsterdam"/>
   </folder>
   <folder name="Application" id="d7279559" type="application">
     <element xsi:type="archimate:ApplicationComponent" id="7381c9bc" name="App backend"/>
@@ -80,6 +111,9 @@
   </folder>
   <folder name="Motivation" id="e1b63c9f" type="motivation">
     <element xsi:type="archimate:Stakeholder" id="6b52a55b" name="Stakeholder"/>
+    <element xsi:type="archimate:Goal" id="8d5dc252" name="Preventie welvaartszaken"/>
+    <element xsi:type="archimate:Goal" id="47165941" name="Gezond gedrag"/>
+    <element xsi:type="archimate:Goal" id="6ea705a6" name="Kwaliteit van leven"/>
   </folder>
   <folder name="Implementation &amp; Migration" id="2f079f47" type="implementation_migration"/>
   <folder name="Connectors" id="8d530a36" type="connectors"/>
@@ -160,6 +194,16 @@
     <element xsi:type="archimate:FlowRelationship" id="5ff3b0c2" source="6053650f" target="98b8d08e"/>
     <element xsi:type="archimate:AssignmentRelationship" id="6ffd3e97" source="b292e34b" target="98b8d08e"/>
     <element xsi:type="archimate:AssignmentRelationship" id="35f5ca23" source="8d0324ba" target="b292e34b"/>
+    <element xsi:type="archimate:FlowRelationship" id="0faf8cda" source="2f451895" target="9b3696b3"/>
+    <element xsi:type="archimate:FlowRelationship" id="26a8a02e" source="bb23c31c" target="bbc2db74"/>
+    <element xsi:type="archimate:AssociationRelationship" id="50cb2e22" source="9b3696b3" target="a7e34cb2"/>
+    <element xsi:type="archimate:FlowRelationship" id="4a30445f" source="cd076b4e" target="bbc2db74"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="b7e16bb6" source="a7ef789a" target="fcf554d0"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="0d1a40b4" source="9b3696b3" target="79a87339"/>
+    <element xsi:type="archimate:AggregationRelationship" id="923899b2" source="1ecdae43" target="ac6731a0"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="d9b694cc" source="a7ef789a" target="2f451895"/>
+    <element xsi:type="archimate:FlowRelationship" id="238f83ec" source="d6507e13" target="bbc2db74"/>
+    <element xsi:type="archimate:RealisationRelationship" id="eb5e8975" source="1ecdae43" target="8d5dc252"/>
   </folder>
   <folder name="Views" id="96770ee1" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" id="7e180d06" name="Sarphati Overview">
@@ -416,4 +460,5 @@
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" id="2f6181d8" name="Business Process"/>
   </folder>
+  <purpose></purpose>
 </archimate:model>
