@@ -154,6 +154,9 @@ Hoofddoel van Sarphati Amsterdam is het bevorderen van een gezonde leefstijl en 
     <element xsi:type="archimate:ApplicationFunction" id="7beb9de4" name="List children (copy)"/>
     <element xsi:type="archimate:ApplicationFunction" id="c03b355f" name="Store consent"/>
     <element xsi:type="archimate:ApplicationFunction" id="c0de5c61" name="Login (copy)"/>
+    <element xsi:type="archimate:ApplicationComponent" id="95f7d648" name="Ouderportaal"/>
+    <element xsi:type="archimate:ApplicationFunction" id="161b3179" name="Data export"/>
+    <element xsi:type="archimate:ApplicationFunction" id="0239a26c" name="Store questionnaire"/>
   </folder>
   <folder name="Technology" id="8030ba63" type="technology">
     <element xsi:type="archimate:CommunicationPath" id="e0ddae81" name="Communication Path"/>
@@ -165,6 +168,7 @@ Hoofddoel van Sarphati Amsterdam is het bevorderen van een gezonde leefstijl en 
     <element xsi:type="archimate:Goal" id="8d5dc252" name="Preventie welvaartszaken"/>
     <element xsi:type="archimate:Goal" id="47165941" name="Gezond gedrag bevorderen"/>
     <element xsi:type="archimate:Goal" id="6ea705a6" name="Kwaliteit van leven verbeteren"/>
+    <element xsi:type="archimate:Assessment" id="00a662a6" name="Assessment"/>
   </folder>
   <folder name="Implementation &amp; Migration" id="2f079f47" type="implementation_migration"/>
   <folder name="Connectors" id="8d530a36" type="connectors"/>
@@ -346,6 +350,23 @@ Hoofddoel van Sarphati Amsterdam is het bevorderen van een gezonde leefstijl en 
     <element xsi:type="archimate:AccessRelationship" id="efe9f6e4" source="9f50ffe5" target="b04192f0" accessType="1"/>
     <element xsi:type="archimate:CompositionRelationship" id="e34767c5" source="dc34a5f2" target="c03b355f"/>
     <element xsi:type="archimate:TriggeringRelationship" id="d927e7da" source="2f451895" target="c802e842"/>
+    <element xsi:type="archimate:SpecialisationRelationship" id="2bee4ad4" source="6c17dded" target="95f7d648"/>
+    <element xsi:type="archimate:UsedByRelationship" id="89d92de7" source="95f7d648" target="db5679e9"/>
+    <element xsi:type="archimate:UsedByRelationship" id="42555d20" source="95f7d648" target="dc278727"/>
+    <element xsi:type="archimate:UsedByRelationship" id="f347d498" source="a3419035" target="95f7d648"/>
+    <element xsi:type="archimate:UsedByRelationship" id="f1f42441" source="a3419035" target="5d1a75d6"/>
+    <element xsi:type="archimate:UsedByRelationship" id="0638f6f9" source="0c893a6c" target="a0c62f7b"/>
+    <element xsi:type="archimate:UsedByRelationship" id="3cb52ddd" source="5664446d" target="a0c62f7b"/>
+    <element xsi:type="archimate:FlowRelationship" id="7fb97705" source="7381c9bc" target="a0c62f7b"/>
+    <element xsi:type="archimate:FlowRelationship" id="0bd6d074" source="0c893a6c" target="a0c62f7b"/>
+    <element xsi:type="archimate:FlowRelationship" id="c9585dee" source="5664446d" target="a0c62f7b"/>
+    <element xsi:type="archimate:UsedByRelationship" id="ddc3a782" source="a0c62f7b" target="161b3179"/>
+    <element xsi:type="archimate:UsedByRelationship" id="ba6c77b3" source="aa269e40" target="161b3179"/>
+    <element xsi:type="archimate:UsedByRelationship" id="ae75cf17" source="b66a5bbd" target="aa269e40"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="3e89f2b3" source="31fb127e" target="161b3179"/>
+    <element xsi:type="archimate:FlowRelationship" id="eb61172e" source="6c17dded" target="a0c62f7b"/>
+    <element xsi:type="archimate:UsedByRelationship" id="5f34b755" source="0239a26c" target="12974621"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="9e1712b9" source="7381c9bc" target="0239a26c"/>
   </folder>
   <folder name="Views" id="96770ee1" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" id="7e180d06" name="Sarphati Overview">
@@ -496,7 +517,7 @@ Hoofddoel van Sarphati Amsterdam is het bevorderen van een gezonde leefstijl en 
         <sourceConnection xsi:type="archimate:Connection" id="427a158f" source="f362c0e3" target="201b41b0" relationship="30198600"/>
         <sourceConnection xsi:type="archimate:Connection" id="60aabd06" source="f362c0e3" target="07851452" relationship="f9f65596"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="33fb6d09" textAlignment="2" targetConnections="83b5297d b4fb0bae 8188caa2 12fba9cd 6f249be4" archimateElement="db5679e9">
+      <child xsi:type="archimate:DiagramObject" id="33fb6d09" textAlignment="2" targetConnections="83b5297d b4fb0bae 8188caa2 12fba9cd 6f249be4 6b935955" archimateElement="db5679e9">
         <bounds x="552" y="252" width="133" height="49"/>
         <sourceConnection xsi:type="archimate:Connection" id="df95bcc9" source="33fb6d09" target="a067e714" relationship="68f5169a"/>
         <sourceConnection xsi:type="archimate:Connection" id="1716e440" source="33fb6d09" target="82f2ee24" relationship="2290c1f5"/>
@@ -524,6 +545,7 @@ Hoofddoel van Sarphati Amsterdam is het bevorderen van een gezonde leefstijl en 
         <sourceConnection xsi:type="archimate:Connection" id="cad6355e" source="f9fefa01" target="201b41b0" relationship="2c4e3a94"/>
         <sourceConnection xsi:type="archimate:Connection" id="9a933979" source="f9fefa01" target="b29997e0" relationship="0797eaae"/>
         <sourceConnection xsi:type="archimate:Connection" id="3b4dbf29" source="f9fefa01" target="6b514623" relationship="089f28af"/>
+        <sourceConnection xsi:type="archimate:Connection" id="f14ca9e2" source="f9fefa01" target="92e40e1c" relationship="2bee4ad4"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="6b514623" textAlignment="2" targetConnections="3b4dbf29" archimateElement="36c46fc1">
         <bounds x="768" y="648" width="133" height="49"/>
@@ -558,7 +580,10 @@ Hoofddoel van Sarphati Amsterdam is het bevorderen van een gezonde leefstijl en 
       <child xsi:type="archimate:DiagramObject" id="a067e714" textAlignment="2" targetConnections="df95bcc9" archimateElement="2d6454a9">
         <bounds x="780" y="252" width="133" height="49"/>
         <sourceConnection xsi:type="archimate:Connection" id="8db60d2f" source="a067e714" target="21b9bc1e" relationship="0ec78e58"/>
-        <sourceConnection xsi:type="archimate:Connection" id="b684d162" source="a067e714" target="82f2ee24" relationship="042e4619"/>
+        <sourceConnection xsi:type="archimate:Connection" id="b684d162" source="a067e714" target="82f2ee24" relationship="042e4619">
+          <bendpoint startX="54" startY="-120" endX="486" endY="48"/>
+          <bendpoint startX="-426" startY="-120" endX="6" endY="48"/>
+        </sourceConnection>
         <sourceConnection xsi:type="archimate:Connection" id="6c5ae562" source="a067e714" target="1449b1ec" relationship="a1997d8f"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="18277392" textAlignment="2" archimateElement="726c24ea">
@@ -654,7 +679,7 @@ Hoofddoel van Sarphati Amsterdam is het bevorderen van een gezonde leefstijl en 
         <bounds x="1200" y="1380" width="133" height="49"/>
         <sourceConnection xsi:type="archimate:Connection" id="4b3ace58" source="3ceaf461" target="fbc3daf5" relationship="35f5ca23"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="02ebe952" textAlignment="2" targetConnections="c7e9dcf8" archimateElement="dc278727">
+      <child xsi:type="archimate:DiagramObject" id="02ebe952" textAlignment="2" targetConnections="c7e9dcf8 f8a05aeb" archimateElement="dc278727">
         <bounds x="996" y="480" width="133" height="49"/>
         <sourceConnection xsi:type="archimate:Connection" id="8188caa2" source="02ebe952" target="33fb6d09" relationship="7e36aeee"/>
         <sourceConnection xsi:type="archimate:Connection" id="64bb2bc8" source="02ebe952" target="cdf6daa7" relationship="ecde40fa"/>
@@ -718,6 +743,11 @@ Hoofddoel van Sarphati Amsterdam is het bevorderen van een gezonde leefstijl en 
       </child>
       <child xsi:type="archimate:DiagramObject" id="4f34d009" textAlignment="2" targetConnections="773ac5a9 4225574e" archimateElement="57ea5d0d">
         <bounds x="156" y="912" width="133" height="49"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="92e40e1c" textAlignment="2" targetConnections="f14ca9e2" archimateElement="95f7d648">
+        <bounds x="996" y="336" width="133" height="49"/>
+        <sourceConnection xsi:type="archimate:Connection" id="6b935955" source="92e40e1c" target="33fb6d09" relationship="89d92de7"/>
+        <sourceConnection xsi:type="archimate:Connection" id="f8a05aeb" source="92e40e1c" target="02ebe952" relationship="42555d20"/>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" id="2f6181d8" name="Business Process"/>
@@ -885,6 +915,104 @@ Versie 20170120</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="f415e103" textAlignment="2" archimateElement="6ea705a6">
         <bounds x="70" y="176" width="120" height="55"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="cc14a3fa" name="Doelsituatie">
+      <child xsi:type="archimate:DiagramObject" id="2a26c31f" textAlignment="2" archimateElement="12b8b01e">
+        <bounds x="528" y="492" width="373" height="337"/>
+        <child xsi:type="archimate:DiagramObject" id="cf2cd35c" textAlignment="2" targetConnections="4aff00f6" archimateElement="4307d319">
+          <bounds x="216" y="276" width="133" height="49"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="6c8a81e1" textAlignment="2" archimateElement="b66a5bbd">
+          <bounds x="216" y="108" width="133" height="49"/>
+          <sourceConnection xsi:type="archimate:Connection" id="c2ba50b7" source="6c8a81e1" target="c462c7e5" relationship="ae75cf17"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="72e720cd" textAlignment="2" archimateElement="7381c9bc">
+        <bounds x="552" y="516" width="133" height="49"/>
+        <sourceConnection xsi:type="archimate:Connection" id="bb1aa714" source="72e720cd" target="712500c4" relationship="b76e7aac"/>
+        <sourceConnection xsi:type="archimate:Connection" id="05ed6499" source="72e720cd" target="1957203f" relationship="28c42328"/>
+        <sourceConnection xsi:type="archimate:Connection" id="6c32bcd1" source="72e720cd" target="27d4a15c" relationship="74e6ad71"/>
+        <sourceConnection xsi:type="archimate:Connection" id="d9cfb04a" source="72e720cd" target="e1334b8f" relationship="7fb97705"/>
+        <sourceConnection xsi:type="archimate:Connection" id="ab5b5fac" source="72e720cd" target="08f58ed4" relationship="9e1712b9"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="fe506302" textAlignment="2" targetConnections="7f596f8f 96640e7c 603ba47f" archimateElement="9f50ffe5">
+        <bounds x="552" y="336" width="133" height="49"/>
+        <sourceConnection xsi:type="archimate:Connection" id="e11a4778" source="fe506302" target="d5d991cc" relationship="013215ea"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="2bd309d8" textAlignment="2" archimateElement="a3419035">
+        <bounds x="180" y="420" width="133" height="49"/>
+        <sourceConnection xsi:type="archimate:Connection" id="26909dbb" source="2bd309d8" target="e14d5d4e" relationship="f347d498"/>
+        <sourceConnection xsi:type="archimate:Connection" id="2b2bf718" source="2bd309d8" target="1957203f" relationship="f1f42441"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="712500c4" textAlignment="2" targetConnections="bb1aa714" archimateElement="62bccaaa">
+        <bounds x="480" y="420" width="133" height="49"/>
+        <sourceConnection xsi:type="archimate:Connection" id="96640e7c" source="712500c4" target="fe506302" relationship="f9f65596"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="d5d991cc" textAlignment="2" targetConnections="e078b9a5 5b2c0c29 e11a4778 cdaa3124" archimateElement="db5679e9">
+        <bounds x="552" y="252" width="133" height="49"/>
+        <sourceConnection xsi:type="archimate:Connection" id="d4eac5cd" source="d5d991cc" target="4a2c4a31" relationship="68f5169a"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="27d4a15c" textAlignment="2" targetConnections="6c32bcd1" archimateElement="dc34a5f2">
+        <bounds x="624" y="420" width="133" height="49"/>
+        <sourceConnection xsi:type="archimate:Connection" id="603ba47f" source="27d4a15c" target="fe506302" relationship="9ac110b1"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="e1334b8f" textAlignment="2" targetConnections="d9cfb04a 7536da8e cf949c4c d203156b" archimateElement="a0c62f7b">
+        <bounds x="552" y="600" width="133" height="49"/>
+        <sourceConnection xsi:type="archimate:Connection" id="cc83f599" source="e1334b8f" target="1518f76d" relationship="ddc3a782"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="7fc0c76e" textAlignment="2" archimateElement="6c17dded">
+        <bounds x="180" y="336" width="133" height="49"/>
+        <sourceConnection xsi:type="archimate:Connection" id="a1c36a1c" source="7fc0c76e" target="33cf0df0" relationship="fed3bb48"/>
+        <sourceConnection xsi:type="archimate:Connection" id="3b8f4c34" source="7fc0c76e" target="e14d5d4e" relationship="2bee4ad4"/>
+        <sourceConnection xsi:type="archimate:Connection" id="d203156b" source="7fc0c76e" target="e1334b8f" relationship="eb61172e"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="33cf0df0" textAlignment="2" targetConnections="188473e6 a1c36a1c" archimateElement="2bbf0184">
+        <bounds x="180" y="252" width="133" height="49"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="4a2c4a31" textAlignment="2" targetConnections="d4eac5cd" archimateElement="2d6454a9">
+        <bounds x="744" y="252" width="133" height="49"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="7c2b3682" textAlignment="2" archimateElement="726c24ea">
+        <bounds x="360" y="252" width="133" height="49"/>
+        <sourceConnection xsi:type="archimate:Connection" id="188473e6" source="7c2b3682" target="33cf0df0" relationship="0d4666ac"/>
+        <sourceConnection xsi:type="archimate:Connection" id="5b2c0c29" source="7c2b3682" target="d5d991cc" relationship="42456c97"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="9daa4367" textAlignment="2" targetConnections="5ac7bb2c" archimateElement="12974621">
+        <bounds x="744" y="336" width="133" height="49"/>
+        <sourceConnection xsi:type="archimate:Connection" id="e078b9a5" source="9daa4367" target="d5d991cc" relationship="972aeb2f"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="e14d5d4e" textAlignment="2" targetConnections="3b8f4c34 26909dbb" archimateElement="95f7d648">
+        <bounds x="360" y="336" width="133" height="49"/>
+        <sourceConnection xsi:type="archimate:Connection" id="cdaa3124" source="e14d5d4e" target="d5d991cc" relationship="89d92de7"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="1957203f" textAlignment="2" targetConnections="05ed6499 2b2bf718" archimateElement="5d1a75d6">
+        <bounds x="336" y="420" width="133" height="49"/>
+        <sourceConnection xsi:type="archimate:Connection" id="7f596f8f" source="1957203f" target="fe506302" relationship="bc4f02d7"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="c462c7e5" textAlignment="2" targetConnections="c2ba50b7" archimateElement="aa269e40">
+        <bounds x="744" y="684" width="133" height="49"/>
+        <sourceConnection xsi:type="archimate:Connection" id="42a81faa" source="c462c7e5" target="1518f76d" relationship="ba6c77b3"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="1518f76d" textAlignment="2" targetConnections="cc83f599 42a81faa dbcf9084" archimateElement="161b3179">
+        <bounds x="552" y="684" width="133" height="49"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="d7985713" textAlignment="2" archimateElement="31fb127e">
+        <bounds x="552" y="768" width="133" height="49"/>
+        <sourceConnection xsi:type="archimate:Connection" id="4aff00f6" source="d7985713" target="cf2cd35c" relationship="957a40a6"/>
+        <sourceConnection xsi:type="archimate:Connection" id="dbcf9084" source="d7985713" target="1518f76d" relationship="3e89f2b3"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="9065828c" textAlignment="2" archimateElement="0c893a6c">
+        <bounds x="360" y="600" width="133" height="49"/>
+        <sourceConnection xsi:type="archimate:Connection" id="7536da8e" source="9065828c" target="e1334b8f" relationship="0bd6d074"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="c7d6fffc" textAlignment="2" archimateElement="5664446d">
+        <bounds x="360" y="684" width="133" height="49"/>
+        <sourceConnection xsi:type="archimate:Connection" id="cf949c4c" source="c7d6fffc" target="e1334b8f" relationship="c9585dee"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="08f58ed4" textAlignment="2" targetConnections="ab5b5fac" archimateElement="0239a26c">
+        <bounds x="768" y="420" width="133" height="49"/>
+        <sourceConnection xsi:type="archimate:Connection" id="5ac7bb2c" source="08f58ed4" target="9daa4367" relationship="5f34b755"/>
       </child>
     </element>
   </folder>
