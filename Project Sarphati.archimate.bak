@@ -382,7 +382,7 @@ Hoofddoel van Sarphati Amsterdam is het bevorderen van een gezonde leefstijl en 
     <element xsi:type="archimate:UsedByRelationship" id="5f34b755" source="0239a26c" target="12974621"/>
     <element xsi:type="archimate:AssignmentRelationship" id="9e1712b9" source="7381c9bc" target="0239a26c"/>
     <element xsi:type="archimate:UsedByRelationship" id="aab699c2" source="dcb30b14" target="6c17dded"/>
-    <element xsi:type="archimate:AssignmentRelationship" id="3ea66ae8" source="7381c9bc" target="dcb30b14"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="3ea66ae8" source="a0c62f7b" target="dcb30b14"/>
     <element xsi:type="archimate:FlowRelationship" id="360d55a2" source="9f50ffe5" target="a3419035"/>
     <element xsi:type="archimate:AccessRelationship" id="89a10aad" source="db5679e9" target="c8bf13d9"/>
     <element xsi:type="archimate:AccessRelationship" id="4a2e7c27" source="d80002c9" target="c8bf13d9" accessType="1"/>
@@ -997,14 +997,11 @@ Versie 20170120</content>
         <sourceConnection xsi:type="archimate:Connection" id="ab5b5fac" source="72e720cd" target="08f58ed4" relationship="9e1712b9">
           <bendpoint startX="318" startY="12" endX="6" endY="108"/>
         </sourceConnection>
-        <sourceConnection xsi:type="archimate:Connection" id="e7cc09ae" source="72e720cd" target="d5a3eb83" relationship="3ea66ae8">
-          <bendpoint startX="-306" startY="12" endX="6" endY="108"/>
-        </sourceConnection>
       </child>
       <child xsi:type="archimate:DiagramObject" id="fe506302" textAlignment="2" targetConnections="7f596f8f 96640e7c 603ba47f" archimateElement="9f50ffe5">
         <bounds x="492" y="108" width="133" height="49"/>
         <sourceConnection xsi:type="archimate:Connection" id="17cfed11" source="fe506302" target="d5d991cc" relationship="013215ea">
-          <bendpoint startX="-42" startY="-36" endX="30" endY="48"/>
+          <bendpoint startX="-30" startY="-36" endX="42" endY="48"/>
           <bendpoint startX="-66" startY="-36" endX="6" endY="48"/>
         </sourceConnection>
         <sourceConnection xsi:type="archimate:Connection" id="50239b10" source="fe506302" target="2bd309d8" relationship="360d55a2"/>
@@ -1037,6 +1034,11 @@ Versie 20170120</content>
       <child xsi:type="archimate:DiagramObject" id="e1334b8f" textAlignment="2" targetConnections="d9cfb04a 7536da8e cf949c4c" archimateElement="a0c62f7b">
         <bounds x="336" y="372" width="133" height="49"/>
         <sourceConnection xsi:type="archimate:Connection" id="cc83f599" source="e1334b8f" target="1518f76d" relationship="ddc3a782"/>
+        <sourceConnection xsi:type="archimate:Connection" id="e7cc09ae" source="e1334b8f" target="d5a3eb83" relationship="3ea66ae8">
+          <bendpoint startX="-162" startY="-12" endX="150" endY="168"/>
+          <bendpoint startX="-162" startY="-84" endX="150" endY="96"/>
+          <bendpoint startX="-306" startY="-84" endX="6" endY="96"/>
+        </sourceConnection>
       </child>
       <child xsi:type="archimate:DiagramObject" id="7fc0c76e" textAlignment="2" targetConnections="d0491a8b" archimateElement="6c17dded">
         <bounds x="24" y="108" width="133" height="49"/>
