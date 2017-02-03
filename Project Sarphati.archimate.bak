@@ -6,7 +6,7 @@
     <element xsi:type="archimate:BusinessObject" id="3d608a99" name="Medical record"/>
     <element xsi:type="archimate:BusinessFunction" id="d11f59de" name="Epidemiologisch onderzoek"/>
     <element xsi:type="archimate:BusinessFunction" id="132a0613" name="Jeugdgezondheidszorg"/>
-    <element xsi:type="archimate:BusinessRole" id="2bbf0184" name="Verpleegkundige"/>
+    <element xsi:type="archimate:BusinessRole" id="2bbf0184" name="Nurse practitioner"/>
     <element xsi:type="archimate:BusinessRole" id="4307d319" name="Researcher"/>
     <element xsi:type="archimate:BusinessFunction" id="2470a63e" name="Business Function"/>
     <element xsi:type="archimate:BusinessObject" id="f25b1205" name="Anonimized dataset"/>
@@ -126,7 +126,7 @@ Hoofddoel van Sarphati Amsterdam is het bevorderen van een gezonde leefstijl en 
     <element xsi:type="archimate:ApplicationFunction" id="5d1a75d6" name="Verify identity"/>
     <element xsi:type="archimate:ApplicationFunction" id="62bccaaa" name="List children"/>
     <element xsi:type="archimate:ApplicationFunction" id="f5ecd4b4" name="List children (copy)"/>
-    <element xsi:type="archimate:ApplicationFunction" id="dc34a5f2" name="Store consent"/>
+    <element xsi:type="archimate:ApplicationFunction" id="dc34a5f2" name="Process consent"/>
     <element xsi:type="archimate:ApplicationComponent" id="a0c62f7b" name="Research backend"/>
     <element xsi:type="archimate:ApplicationComponent" id="6c17dded" name="Kidos"/>
     <element xsi:type="archimate:ApplicationService" id="36c46fc1" name="List children"/>
@@ -153,7 +153,7 @@ Hoofddoel van Sarphati Amsterdam is het bevorderen van een gezonde leefstijl en 
     <element xsi:type="archimate:ApplicationComponent" id="12974621" name="Questionnaire"/>
     <element xsi:type="archimate:DataObject" id="9a5cf499" name="Data Object"/>
     <element xsi:type="archimate:DataObject" id="298a1d4b" name="Data Object"/>
-    <element xsi:type="archimate:ApplicationComponent" id="0c893a6c" name="Apotheken data systeem"/>
+    <element xsi:type="archimate:ApplicationComponent" id="0c893a6c" name="Pharmacy data systeem"/>
     <element xsi:type="archimate:ApplicationFunction" id="e7a48e41" name="Store consent (copy)"/>
     <element xsi:type="archimate:ApplicationFunction" id="7beb9de4" name="List children (copy)"/>
     <element xsi:type="archimate:ApplicationFunction" id="c03b355f" name="Store consent"/>
