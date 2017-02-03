@@ -119,6 +119,11 @@ Hoofddoel van Sarphati Amsterdam is het bevorderen van een gezonde leefstijl en 
     <element xsi:type="archimate:BusinessObject" id="eaa2dd3c" name="Consent form"/>
     <element xsi:type="archimate:BusinessRole" id="25f1c4b2" name="Datamanager"/>
     <element xsi:type="archimate:BusinessActor" id="055c64d9" name="AMC, UvA, VU, VUMC, HvA, Bedrijfsleven"/>
+    <element xsi:type="archimate:BusinessProcess" id="ea1faf78" name="Specify request data (copy)"/>
+    <element xsi:type="archimate:BusinessProcess" id="e710d508" name="Pseudo profiel maken (copy)"/>
+    <element xsi:type="archimate:BusinessProcess" id="ffb6cac7" name="Anonimized data export (copy)"/>
+    <element xsi:type="archimate:BusinessProcess" id="dd8ffe2e" name="Import data in research software (copy)"/>
+    <element xsi:type="archimate:BusinessEvent" id="1cc37f4e" name="Regular research data request (copy)"/>
   </folder>
   <folder name="Application" id="d7279559" type="application">
     <element xsi:type="archimate:ApplicationComponent" id="7381c9bc" name="App backend"/>
@@ -415,6 +420,10 @@ Hoofddoel van Sarphati Amsterdam is het bevorderen van een gezonde leefstijl en 
     <element xsi:type="archimate:AccessRelationship" id="c33020e5" source="0c893a6c" target="65be06a0"/>
     <element xsi:type="archimate:AccessRelationship" id="89cd9e98" source="2bbf0184" target="eaa2dd3c" accessType="1"/>
     <element xsi:type="archimate:AggregationRelationship" id="d2a1f136" source="c802e842" target="055c64d9"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="9d2c96c2" source="1cc37f4e" target="ea1faf78"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="4622b565" source="ea1faf78" target="e710d508"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="74db6b29" source="ffb6cac7" target="dd8ffe2e"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="27028804" source="e710d508" target="ffb6cac7"/>
   </folder>
   <folder name="Views" id="96770ee1" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" id="7e180d06" name="Sarphati Overview">
@@ -1295,6 +1304,27 @@ Versie 20170120</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="aa4ced86" textAlignment="2" archimateElement="6ea705a6">
         <bounds x="264" y="372" width="120" height="55"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="af597ab9" name="Proces Onderzoeksdata">
+      <child xsi:type="archimate:DiagramObject" id="5c49593e" textAlignment="2" targetConnections="7752d407" archimateElement="ea1faf78">
+        <bounds x="204" y="72" width="133" height="49"/>
+        <sourceConnection xsi:type="archimate:Connection" id="3762d61b" source="5c49593e" target="dc186d0a" relationship="4622b565"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="dc186d0a" textAlignment="2" targetConnections="3762d61b" archimateElement="e710d508">
+        <bounds x="360" y="72" width="133" height="49"/>
+        <sourceConnection xsi:type="archimate:Connection" id="914e91d1" source="dc186d0a" target="edb302c9" relationship="27028804"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="edb302c9" textAlignment="2" targetConnections="914e91d1" archimateElement="ffb6cac7">
+        <bounds x="516" y="72" width="133" height="49"/>
+        <sourceConnection xsi:type="archimate:Connection" id="8c312915" source="edb302c9" target="8970ca74" relationship="74db6b29"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="8970ca74" textAlignment="2" targetConnections="8c312915" archimateElement="dd8ffe2e">
+        <bounds x="672" y="72" width="133" height="49"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="46ed1d4a" textAlignment="2" archimateElement="1cc37f4e">
+        <bounds x="48" y="72" width="133" height="49"/>
+        <sourceConnection xsi:type="archimate:Connection" id="7752d407" source="46ed1d4a" target="5c49593e" relationship="9d2c96c2"/>
       </child>
     </element>
   </folder>
